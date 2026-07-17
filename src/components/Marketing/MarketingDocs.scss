@@ -1,0 +1,270 @@
+.proposals-container {
+  padding: 20px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.proposals-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.proposals-header h3 {
+  color: #007bff;
+  margin: 0;
+}
+
+.upload-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.upload-btn:hover {
+  background: #1e7e34;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.file-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.file-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.file-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* Icon colors */
+.pdf {
+  color: #dc3545;
+}
+.word {
+  color: #2b579a;
+}
+.excel {
+  color: #217346;
+}
+.ppt {
+  color: #d24726;
+}
+.html {
+  color: #e44d26;
+}
+
+.file-name {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.download-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.2s ease;
+}
+
+.download-btn:hover {
+  background: #0056b3;
+}
+
+/* ===== Modal Styles ===== */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px 30px;
+  width: 750px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal-box h4 {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.file-input {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.file-selected {
+  font-size: 13px;
+  color: #555;
+  margin: 5px 0 15px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.upload-confirm-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.upload-confirm-btn:hover {
+  background: #0056b3;
+}
+
+.cancel-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.cancel-btn:hover {
+  background: #b52a3a;
+}
+
+.preview-btn {
+  background: #17a2b8;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.preview-frame {
+  width: 100%;
+  height: 500px;
+  border: none;
+}
+
+.preview-image {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 6px;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.proposals-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 220px;
+}
+
+.clear-btn {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.clear-btn:hover {
+  background: #d32f2f;
+}
+
+.sort-section {
+  margin-left: 10px;
+}
+
+.sort-select {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.file-date {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 6px;
+}

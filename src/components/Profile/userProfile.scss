@@ -1,0 +1,164 @@
+.profile-modal {
+  height: 92%;
+  top: 4% !important;
+  padding-bottom: 0 !important;
+  overflow: visible !important;
+  font-size: 13px;
+
+  .modal-dialog {
+    max-width: 70%;
+    // top: 5%;
+    //left: 15%;
+
+    .modal-content {
+      height: 100%;
+      overflow: visible;
+    }
+  }
+
+  .modal-header {
+    min-height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+    .close-btn {
+      position: absolute;
+      right: -10px;
+      top: -10px;
+      z-index: 9999;
+      overflow: visible;
+      border-radius: 50%;
+      padding: 1px 4px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: 800;
+      background-color: black;
+    }
+  }
+
+  .user-profile-container {
+    padding: 5px 20px;
+  }
+
+  .up-table-div {
+    height: 64%;
+  }
+
+  .gop-up-user-details {
+    padding: 10px;
+    box-shadow: 0px 0px 8px -1.9px #ccc;
+    margin-bottom: 1%;
+
+    .ud-user-name {
+      display: flex;
+      padding: 5px 0;
+      align-items: center;
+      word-wrap: break-word;
+
+      .ud-user-name-div {
+        min-width: 33%;
+
+        label {
+          padding-right: 10px;
+          margin-bottom: 0;
+          min-width: 92px;
+        }
+
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .profile-close-btn {
+    width: 10%;
+  }
+
+  .gop-up-close-div {
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .table-main-div {
+    height: 92%;
+    overflow: auto !important;
+
+    .custom-table-header {
+      border: none !important;
+    }
+
+    .table {
+      margin-bottom: 0 !important;
+      td {
+        padding: 4px 8px !important;
+        font-size: 12px !important;
+      }
+    }
+  }
+
+  .table-search-bar {
+    height: 28px !important;
+
+    input {
+      padding: 4px 0;
+      font-size: 12px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .profile-modal {
+    font-size: 11px;
+
+    .az-dashboard-title {
+      font-size: 18px;
+    }
+    .gop-up-user-details {
+      padding: 4px 10px;
+    }
+    .table-main-div {
+      .table td,
+      .table th {
+        font-size: 11px !important;
+      }
+      .table th {
+        font-weight: 700 !important;
+      }
+    }
+
+    .modal-header {
+      .close-btn {
+        top: -8px;
+        right: -8px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 978px) {
+  .profile-close-btn {
+    width: 35% !important;
+  }
+
+  .table-main-div {
+    height: 88% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .profile-modal .gop-up-user-details .ud-user-name {
+    display: inline;
+    .ud-user-name-div {
+      word-wrap: break-word;
+      // min-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+  }
+}

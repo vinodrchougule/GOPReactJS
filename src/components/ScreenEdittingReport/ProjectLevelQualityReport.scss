@@ -1,0 +1,51 @@
+.status-card {
+  border: 1px solid #000;
+  min-width: 250px;
+}
+
+.status-card1 {
+  min-width: 60px;
+}
+
+.status-card2 {
+  border: 1px solid #000;
+  min-width: 550px;
+}
+
+.status-header {
+  background-color: #e9e9e9;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  padding: 6px;
+}
+
+.status-row {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+.status-row:last-child {
+  border-bottom: none;
+}
+
+.status-cell {
+  flex: 1;
+  padding: 6px 10px;
+  border-right: 1px solid #000;
+  white-space: nowrap;
+}
+
+.status-cell:last-child {
+  border-right: none;
+  text-align: center;
+  width: 40px;
+}
+
+@media (max-width: 768px) {
+  .card-group {
+    flex-direction: column !important;
+    align-items: stretch;
+  }
+}

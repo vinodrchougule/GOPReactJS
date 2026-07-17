@@ -1,0 +1,734 @@
+.form-control.isltchk {
+  margin-left: 10px !important;
+}
+.form-control.myfrm.mrodict {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.form-control.myfrm.mrovrsn {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+.mrodict h6 {
+  margin-bottom: 0px;
+  margin-left: 3px;
+}
+
+.form-control.isltchk.actv {
+  background-color: rgb(91, 71, 251) !important;
+  opacity: 0.5;
+  margin-left: 10px !important;
+}
+.mrodict .table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 0px !important;
+}
+
+.mrodict .table td {
+  border: none;
+}
+.mrodict .table td,
+.mrodict .table th {
+  border-top: 0;
+
+  vertical-align: middle;
+}
+.pdqcmro.masters-material-table tr td {
+  min-width: 15% !important;
+}
+.pdqcmro.masters-material-table tr th {
+  min-width: 15%;
+}
+.mrodict .table .col-md-8.mrcnt {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mrodict .table .col-md-2.mrcnt {
+  min-width: 18%;
+  float: right;
+  display: block;
+  margin-right: auto;
+}
+.MuiTableRow-root:active {
+  background-color: rgb(242, 242, 242) !important;
+}
+.Mui-TableHeadCell-Content-Wrapper.MuiBox-root.css-lapokc {
+  white-space: nowrap !important;
+}
+.Mui-TableHeadCell-Content-Wrapper.MuiBox-root.css-1t5kuvk {
+  white-space: nowrap !important;
+}
+.Mui-TableHeadCell-Content-Labels.MuiBox-root.css-15qrapg {
+  padding-left: 0px !important;
+}
+.mrodictbtn {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1000px) {
+  .mymnmdl.viewsug.mrdictionary .modal-content {
+    max-width: 500px !important;
+  }
+  .mymnmdl.viewsug.mrdictionary .modal-body {
+    padding: 0px !important;
+  }
+  .mymnmdl.viewsug.mrdictionary .modal-footer {
+    margin: 0px !important;
+  }
+}
+.mysgtdta.successmsg {
+  width: 100%;
+  display: block;
+}
+.mysgtdta.successmsg .alert.alert-success {
+  height: 100%;
+  background: none !important;
+  border: 1px solid green;
+  color: green;
+  border-width: 1px !important;
+}
+.mrdictionary .mrodictcnt {
+  width: fit-content;
+}
+
+.mymnmdl.viewsug.mrdictionary .modal-content {
+  max-width: 500px !important;
+}
+.mymnmdl.viewsug.mrdictionary .modal-body {
+  padding: 0px !important;
+  background-color: #fff !important;
+}
+.mymnmdl.viewsug.mrdictionary .modal-header {
+  padding: 10px 25px !important;
+}
+.mymnmdl.viewsug.mrdictionary .modal-footer {
+  margin: 0px !important;
+  padding: 6px !important;
+}
+.mymnmdl.viewsug.mrdictionary
+  .modal-footer
+  .vewsubmit-button.btn.btn-secondary {
+  margin: 0px !important;
+  padding: 7px 20px !important;
+}
+.mrdictionary .mymdldata {
+  background: none !important;
+  border: none !important;
+}
+.mrdictionary .table tr td {
+  border: none !important;
+  padding: 7px 10px !important;
+}
+.reptimg {
+  color: #5b47fb !important;
+}
+.mymnmdl.viewsug.mrdictionary .modal-header {
+  justify-content: center;
+}
+.mrodicttblebdy {
+  position: relative;
+
+  width: 100%;
+  display: block;
+}
+.modal-backdrop.show {
+  opacity: 0.5 !important;
+  background-color: #0c1019 !important;
+}
+.modal-backdrop {
+  opacity: 0.5 !important;
+  background-color: #0c1019 !important;
+}
+.mrodta.alert.alert-danger {
+  background: none !important;
+  border: 1px solid red;
+  color: red !important;
+}
+.insttxt {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+  .az-header-menu .nav-item + .nav-item {
+    margin-top: 0;
+    margin-left: 6px !important;
+  }
+}
+
+.mrodatamodel .modal-content {
+  left: 0%;
+  top: 40%;
+  width: 100%;
+}
+.mrodatamodel .modal-dialog {
+  left: 33%;
+  width: 100%;
+}
+.mrodatamodel.myvlddta .modal-content {
+  left: 0%;
+  top: 30%;
+  width: 100%;
+  height: 80%;
+}
+.mrodatamodel.myvlddta .modal-dialog {
+  left: 18%;
+  width: 100%;
+  top: 0%;
+  height: 80%;
+}
+
+.vldt-dta {
+  display: flex;
+  align-items: center;
+}
+.mrodatamodel.myvlddta .modal-dialog {
+  max-width: 1100px !important;
+}
+
+.vewsubmit-button.myvldtbtn {
+  display: block;
+  margin: 0 auto;
+}
+.mrodatamodel.myvlddta .table-bordered thead th,
+.table-bordered thead td {
+  border-top-width: 1px !important;
+}
+.mrodatamodel.myvlddta .modal-header {
+  background-color: #d5e1f5 !important;
+  padding: 15px 25px !important;
+}
+.mrodatamodel.myvlddta .table td {
+  padding: 9px 8px;
+  line-height: 1;
+}
+.mrodatamodel.myvlddta .table thead tr th {
+  position: inherit !important;
+  padding: 9px 8px;
+  line-height: 1;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+  .mrodatamodel.myvlddta .modal-dialog {
+    max-width: 950px !important;
+  }
+  .pdqcmro.masters-material-table.nmtable .MuiTableContainer-root {
+    height: calc(50vh - 278px) !important;
+    overflow: auto;
+  }
+}
+@media screen and (min-width: 1401px) and (max-width: 1500px) {
+  .nnmdrs {
+    position: relative;
+    left: 20px;
+  }
+  .nnsyns {
+    position: relative;
+    left: 40px;
+  }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1400px) {
+  .nnmdrs {
+    position: relative;
+    left: 39px;
+  }
+  .nnsyns {
+    position: relative;
+    left: 56px;
+  }
+  .nnsdta {
+    position: relative;
+    left: 5px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+  .nnmdrs {
+    position: relative;
+    left: 56px;
+  }
+  .nnsyns {
+    position: relative;
+    left: 74px;
+  }
+  .nnsdta {
+    position: relative;
+    left: 25px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .mrodatamodel.myvlddta .modal-dialog {
+    max-width: 500px !important;
+  }
+}
+.form-control {
+  height: 38px;
+  border-radius: 0;
+}
+
+.resizable-textfield .MuiInputBase-root {
+  background-color: #fff !important;
+  border-radius: 0px !important;
+}
+.mymnmdl.viewsug.mrdictionary.nmmdl .modal-content {
+  max-width: 965px !important;
+}
+.mymnmdl.viewsug.mrdictionary.nmmdl .modal-body {
+  padding: 10px !important;
+}
+.nmbtn {
+  margin-right: 10px !important;
+  background-color: #5b47fb !important;
+  color: #fff;
+  border: none;
+}
+.nmbtn:hover {
+  margin-right: 10px !important;
+  background-color: #5b47fb !important;
+  color: #fff;
+  border: none;
+}
+.mymnmdl.viewsug.mrdictionary.mymnmdl .modal-header {
+  justify-content: space-between !important;
+  padding: 10px !important;
+}
+.beltimg {
+  width: 100%;
+  height: 100vh;
+  visibility: hidden;
+}
+.mndatry {
+  display: flex;
+  align-items: center;
+}
+.mndatry label {
+  display: flex;
+}
+.mndatry input {
+  margin-right: 5px;
+}
+.pdqcmro.masters-material-table.nmtable.unspcimg .MuiBox-root.css-1p0wbhh {
+  display: none !important;
+}
+.pdqcmro.masters-material-table.nmtable.unspcimg .MuiTableContainer-root {
+  height: 100% !important;
+}
+.syncsv {
+  visibility: hidden;
+}
+.masters-material-table tr th {
+  border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.masters-material-table tr td {
+  border-right: 1px solid rgba(224, 224, 224, 1);
+}
+@media screen and (min-width: 2500px) {
+  .pdqcmro.masters-material-table.nmtable .MuiTableContainer-root {
+    height: calc(50vh - 518px) !important;
+    overflow: auto;
+  }
+  .pdqcmro.masters-material-table.nmtable.unspcimg .MuiTableContainer-root {
+    height: 100% !important;
+    max-height: calc(100vh - 412px) !important;
+  }
+}
+.nmsvntns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.nmsvntns .nmbtn {
+  margin-right: 30px !important;
+}
+.nmsvntnsview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px !important;
+}
+.pdqcmro.masters-material-table.nmttblelist tr td {
+  border-right: none !important;
+  padding: 0.3rem !important;
+}
+.pdqcmro.masters-material-table.nmttblelist .MuiTableContainer-root {
+  height: calc(100vh - 225px) !important;
+}
+.nmtmplst {
+  height: calc(100vh - 140px) !important;
+}
+
+.form-floating > .form-control,
+.form-floating > .form-control:not(:placeholder-shown),
+.form-floating:focus-within > .form-control {
+  padding: 6px 15px;
+  line-height: 25px;
+  height: 35px;
+
+  &.form-textarea {
+    height: auto !important;
+  }
+}
+.searchWrapper {
+  border: none !important;
+}
+.maxHeight-n-scroller {
+  .searchWrapper {
+    max-height: 100px;
+    overflow-x: hidden;
+  }
+}
+.searchWrapper,
+.multiSelectContainer ul {
+  background-color: #fff;
+  box-shadow: none;
+}
+.float-input-visible > label,
+.float-input-visible:focus-within > label,
+.float-input:focus-within > label {
+  display: inline-block !important;
+  position: absolute;
+  top: -3px;
+  left: 5px;
+  color: #000000;
+  background-color: #fff;
+  padding: 0px 3px;
+  font-size: 14px;
+  height: 22px;
+  border-radius: 4px;
+  opacity: 0.8 !important;
+  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+.form-floating > .form-control,
+.form-floating > .form-control:not(:placeholder-shown),
+.form-floating:focus-within > .form-control {
+  padding: 6px 15px;
+  line-height: 25px;
+  height: 42px;
+}
+.form-floating {
+  width: 100%;
+  position: relative;
+}
+.float-visible-select > label,
+.float-visible-select:focus-within > label,
+.float-select:focus-within > label {
+  display: inline-block !important;
+  position: absolute;
+  top: -10px;
+  left: 5px;
+  color: #000000;
+  background-color: #fff;
+  padding: 0px 3px;
+  font-size: 12px;
+  height: 18px;
+  border-radius: 4px;
+  opacity: 0.8 !important;
+  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out !important;
+}
+
+.float-input > label {
+  display: inline-block !important;
+  position: absolute;
+  top: auto;
+  left: 0;
+  bottom: 10px;
+  height: 100%;
+  padding: 1rem 0.75rem;
+  pointer-events: none;
+  border: 1px solid transparent;
+  transform-origin: 0 0;
+  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.float-select > label {
+  display: none !important;
+}
+
+.custom-auto-select {
+  input:focus::placeholder {
+    color: transparent !important;
+  }
+}
+
+.float-visible-select,
+.float-select:focus-within {
+  .css-1jqq78o-placeholder {
+    display: none;
+  }
+}
+
+.react-select-container-list {
+  height: 42px;
+}
+.react-select-container-list {
+  height: 42px;
+}
+
+.createnm {
+  display: flex;
+  align-items: center;
+}
+
+.css-12tl3rr-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
+  opacity: 1;
+  -webkit-text-fill-color: #1c273c !important;
+}
+.float-visible-select > label,
+.float-visible-select:focus-within > label,
+.float-select:focus-within > label {
+  opacity: 0.91 !important;
+}
+
+.form-control.myfrm {
+  background-color: #dddddd4f !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  padding-right: 10px;
+}
+.react-select-container-list.form-control.form.add-basefare-input.myfrm {
+  background-color: #dddddd4f !important;
+}
+.production-update-main.editnmtemplate {
+  overflow-x: hidden !important;
+}
+
+.nmtemplatelist.mrodictvew .resizable-textfield .MuiInputBase-root {
+  background: #fff !important;
+}
+.pdqcmro.masters-material-table.nmtable.unspcimg.mrodictvewer {
+  height: auto !important;
+}
+.pdqcmro.masters-material-table.nmtable.unspcimg.mrodictvewer
+  .MuiTableContainer-root {
+  height: auto !important;
+  max-height: calc(100vh - 295px) !important;
+  overflow: auto;
+}
+
+.production-update-main.vewnm.mrodictvew {
+  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+}
+
+.production-update-main.vewnm.mrodictvew .MuiBox-root.css-1tbggly {
+  display: none;
+}
+.resizable-textfield.myfrm.nmdefin
+  .css-12tl3rr-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
+  min-height: 45px !important;
+  height: 45px !important;
+}
+.resizable-textfield.myfrm.nmdefin .MuiInputBase-root {
+  min-height: 45px !important;
+}
+.resizable-textfield.myfrm.nmdefin {
+  height: 45px;
+}
+.pdqcmro.masters-material-table.nmtable.mrodicttble
+  .Mui-TableHeadCell-Content-Wrapper.MuiBox-root.css-lapokc {
+  white-space: nowrap !important;
+}
+.pdqcmro.masters-material-table.nmtable.mrodicttble
+  .Mui-TableHeadCell-Content-Wrapper.MuiBox-root.css-1t5kuvk {
+  white-space: nowrap !important;
+}
+
+.nmtemplatelist.mrodictvew.row .masters-material-table tr td {
+  padding: 0.3rem !important;
+}
+.nmtemplatelist.mrodictvew.row .masters-material-table tr th {
+  padding: 0.3rem !important;
+}
+
+.nmtemplatelist.mrodictvew .resizable-textfield .MuiInputBase-root {
+  min-height: 87px !important;
+  height: 87px !important;
+}
+
+.pdqcmro.masters-material-table {
+  height: calc(100vh - 460px);
+}
+
+.css-rfwhd3-MuiTableContainer-root {
+  height: 100% !important;
+}
+
+.pdqcmro.masters-material-table.nmttblelist.nmmodifiertemplist .css-10gei56 {
+  display: block !important;
+}
+.pdqcmro.masters-material-table.nmttblelist.nmmodifiertemplist
+  .MuiTableContainer-root {
+  height: calc(100vh - 275px) !important;
+}
+.mroDictionaryViewerTextarea textarea {
+  min-height: 100% !important;
+  height: 100% !important;
+}
+.mroDictionaryViewerTextarea .resizable-textfield .MuiInputBase-root {
+  min-height: 100% !important;
+  height: 100% !important;
+  
+}
+.mroDictionaryTextareaContent .col-lg-6 {
+  min-height: 50% !important;
+  height: 50% !important;
+}
+.resizable-textfield.mroDictionaryNounDefinition {
+  min-height: 50% !important;
+  height: 50% !important;
+}
+.resizable-textfield.mroDictionaryNounDefinition textarea {
+  min-height: 100% !important;
+  height: 100% !important;
+}
+.resizable-textfield.mroDictionaryNounDefinition .MuiInputBase-root {
+  min-height: 100% !important;
+  height: 100% !important;
+}
+.production-update-main.vewnm
+  .mroDictionaryViewerTextarea
+  .resizable-textfield
+  .MuiInputBase-root {
+  
+  min-height: 142px !important;
+  max-height: 142px !important;
+}
+.production-update-main.vewnm
+  .mroDictionaryViewerTextarea
+  .resizable-textfield
+  .MuiInputBase-root
+  textarea {
+  
+  min-height: 125px !important;
+  max-height: 125px !important;
+  text-align: justify !important;
+}
+.pdqcmro.masters-material-table.mroDictionaryViewerTable
+  .MuiTableContainer-root {
+  min-height: 160px !important;
+  max-height: 160px !important;
+}
+.pdqcmro.masters-material-table.mroDictionaryViewerTable {
+  height: 100% !important;
+}
+.pdqcmro.masters-material-table.mroDictionaryViewerTable
+  .MuiPaper-root.MuiPaper-elevation {
+  height: 100% !important;
+  max-height: 200px !important;
+}
+.pdqcmro.masters-material-table.nmtable.mrodicttble.mroDictionaryListTable
+  .MuiTableContainer-root {
+  height: 100% !important;
+  max-height: 230px !important;
+  min-height: 230px !important;
+}
+.pdqcmro.masters-material-table.nmtable.unspcimg.mroDictionaryViewerTableImages {
+  height: 100% !important;
+}
+.pdqcmro.masters-material-table.nmtable.unspcimg.mroDictionaryViewerTableImages
+  .MuiPaper-root.MuiPaper-elevation {
+  height: 100% !important;
+  max-height: 100% !important;
+}
+.pdqcmro.masters-material-table.nmtable.unspcimg.mroDictionaryViewerTableImages {
+  height: 100% !important;
+}
+.pdqcmro.masters-material-table.nmtable.unspcimg.mroDictionaryViewerTableImages
+  .MuiTableContainer-root {
+  max-height: 660px !important;
+  min-height: 660px !important;
+}
+.autocomplete-custom.selectNounText .MuiInputBase-root {
+  height: 42px !important;
+  border-radius: 0px !important;
+}
+.autocomplete-custom.selectNounText .MuiFormLabel-root {
+  top: -5px !important;
+  margin-bottom: 0px !important;
+  font-size: 14px !important;
+}
+.mroDictionaryListTable .row-active {
+  cursor: pointer;
+  background-color: #f2f2f2 !important;
+}
+.mroDictionaryListTable tr {
+  cursor: pointer;
+}
+.masters-material-table tr th {
+  background-color: #d5e1f5 !important;
+}
+.autocomplete-custom.selectNounText li {
+  font-size: 14px !important;
+}
+.mroDictionaryViewerTextarea .float-select > label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 12px !important;
+}
+.mroDictionaryInputDate .float-select > label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 12px !important;
+}
+.createnm.mroDictionarySelectNoun .float-select > label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 12px !important;
+}
+.createnm.mroDictionayViewrVersionSelected .float-select > label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 12px !important;
+}
+.mroDictionaryInputDate
+  .react-select-container-list.form-control.form.add-basefare-input.myfrm {
+  background: #fff !important;
+}
+.mroDictionaryInputDate
+  .mroDictionaryNounDefinition
+  .production-update-main.vewnm.resizable-textfield.MuiInputBase-root {
+  background: #fff !important;
+}
+
+.production-update-main.vewnm
+  .createnm.mroDictionaryInputDate
+  .resizable-textfield
+  .MuiInputBase-root {
+  background: #fff !important;
+}
+.createnm.mroDictionaryInputDate textarea {
+  color: #000 !important;
+}
+.mroDictionaryViewerTextarea textarea {
+  color: #000 !important;
+}
+.createnm .float-hidden.float-select.form-floating .form-control {
+  font-size: 14px !important;
+}
+.createnm.mroDictionarySelectNoun .autocomplete-custom input {
+  font-size: 13px !important;
+}
+.createnm.mroDictionaryInputDate.mroViewer.releaseDate .react-select-container-list.form-control.form.add-basefare-input.myfrm{background-color: #dddddd4f !important;}
+.createnm.mroDictionaryInputDate.mroViewer.nounDefinitionText .resizable-textfield.mroDictionaryNounDefinition .MuiInputBase-root{background-color: #dddddd4f !important;}
+.production-update-main.vewnm.mrodictvew.mroDictionaryViewerMainContent .mroDictionaryViewerTextarea.nounModifierDefinitionText .resizable-textfield .MuiInputBase-root{background-color: #dddddd4f !important;}

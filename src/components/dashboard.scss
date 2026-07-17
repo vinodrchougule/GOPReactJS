@@ -1,0 +1,176 @@
+//1376 resolution
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+  .active-tasks-table-height {
+    height: 450px;
+  }
+
+  .active-resources-table-height {
+    height: 380px;
+  }
+
+  .duration-table-height {
+    height: 390px;
+  }
+}
+
+//1400 resolution
+@media screen and (min-width: 1399px) and (max-width: 1439px) {
+  .active-tasks-table-height {
+    height: 800px;
+  }
+
+  .active-resources-table-height {
+    height: 760px;
+  }
+
+  .duration-table-height {
+    height: 770px;
+  }
+}
+
+//1440 resolution
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+  .active-tasks-table-height {
+    height: 660px;
+  }
+
+  .active-resources-table-height {
+    height: 610px;
+  }
+
+  .duration-table-height {
+    height: 620px;
+  }
+}
+
+//1600 resolution
+@media screen and (min-width: 1600px) and (max-width: 1679px) {
+  .active-tasks-table-height {
+    height: 650px;
+  }
+
+  .active-resources-table-height {
+    height: 600px;
+  }
+
+  .duration-table-height {
+    height: 610px;
+  }
+}
+
+//1680 resolution
+@media screen and (min-width: 1680px) and (max-width: 1919px) {
+  .active-tasks-table-height {
+    height: 800px;
+  }
+
+  .active-resources-table-height {
+    height: 760px;
+  }
+
+  .duration-table-height {
+    height: 770px;
+  }
+}
+
+//1920 resolution
+@media screen and (min-width: 1920px) and (max-width: 2111px) {
+  .active-tasks-table-height {
+    height: 740px;
+  }
+
+  .active-resources-table-height {
+    height: 700px;
+  }
+
+  .duration-table-height {
+    height: 700px;
+  }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1550px) {
+  .project-cards .card-body-top .card-div .text-center,
+  .card-link-div .card-dashboard-two .card-header .data-count {
+    font-size: 16px !important;
+  }
+  .project-cards .card-body-top .card-div label {
+    font-size: 11px !important;
+  }
+  .project-cards .card-body-top .card-div .text-center {
+    height: 70px !important;
+    width: 70px !important;
+  }
+}
+
+.masters-material-table.dashboardDetailsTableContent {
+  max-height: 100% !important;
+  height: 100% !important;
+}
+@media screen and (min-width: 1900px) {
+  .masters-material-table.dashboardDetailsTableContent .MuiTableContainer-root {
+    height: calc(100vh - 495px) !important;
+  }
+  .radialBarDashBoardDetails {
+    height: calc(100vh - 385px) !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1899px) {
+  .masters-material-table.dashboardDetailsTableContent .MuiTableContainer-root {
+    height: calc(100vh - 385px) !important;
+  }
+  .radialBarDashBoardDetails {
+    height: calc(100vh - 300px) !important;
+  }
+}
+.masters-material-table.activeTasksTableContent {
+  height: 100% !important;
+}
+.masters-material-table.activeTasksTableContent .MuiTableContainer-root {
+  height: calc(100vh - 180px) !important;
+}
+.masters-material-table.activeResourcesListTable {
+  height: 100% !important;
+}
+.masters-material-table.activeResourcesListTable .MuiTableContainer-root {
+  height: calc(100vh - 200px) !important;
+}
+.activeTasksTableContent
+  tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(244, 246, 248, 1) !important;
+}
+.activeTasksTableContent
+  tr:nth-of-type(odd):not([data-selected="true"]):not(
+    [data-pinned="true"]
+  ):hover {
+  background-color: rgba(204, 204, 204, 255) !important;
+}
+.activeTasksTableContent
+  tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(255, 255, 255, 255) !important;
+}
+.activeTasksTableContent
+  tr:nth-of-type(even):not([data-selected="true"]):not(
+    [data-pinned="true"]
+  ):hover {
+  background-color: rgba(204, 204, 204, 255) !important;
+}
+.durationDetailsMainContent
+  tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(244, 246, 248, 1) !important;
+}
+.durationDetailsMainContent
+  tr:nth-of-type(odd):not([data-selected="true"]):not(
+    [data-pinned="true"]
+  ):hover {
+  background-color: rgba(204, 204, 204, 255) !important;
+}
+.durationDetailsMainContent
+  tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(255, 255, 255, 255) !important;
+}
+.durationDetailsMainContent
+  tr:nth-of-type(even):not([data-selected="true"]):not(
+    [data-pinned="true"]
+  ):hover {
+  background-color: rgba(204, 204, 204, 255) !important;
+}

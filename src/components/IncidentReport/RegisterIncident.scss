@@ -1,0 +1,238 @@
+.reportIncidentMainContent {
+  display: flex;
+}
+
+.reportIncidentContent {
+  width: 50% !important;
+}
+
+.reportIncidentContent.reportIncidentLeftText {
+  border-right: 1px solid #cdd4e0 !important;
+  padding-right: 15px !important;
+}
+
+.reportIncidentSelectText .MuiInputBase-input.MuiOutlinedInput-input {
+  height: 80px !important;
+}
+
+.reportIncidentSelectText {
+  display: flex;
+  align-items: center;
+}
+
+.reportIncidentSelectText .float-select>label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 12px !important;
+}
+
+.reportIncidentSelectText .resizable-textfield .MuiInputBase-root {
+  background-color: #fff !important;
+}
+
+.reportIncidentText .float-select>label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 12px !important;
+}
+
+.reportIncidentText {
+  display: flex;
+  align-items: center;
+}
+
+.reportIncidentText .resizable-textfield .MuiInputBase-root {
+  background-color: #fff !important;
+}
+
+.reportIncidentText textarea {
+  height: 85px !important;
+}
+
+.reportIncidentText .MuiInputBase-input:focus-visible {
+  outline: none !important;
+}
+
+.reportIncidentText .MuiFormControl-root:focus-visible {
+  outline: none !important;
+}
+
+.reportIncidentText .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: 1px solid #cdd4e0 !important;
+}
+
+.reportIncidentInputText .resizable-textfield .MuiInputBase-root {
+  background-color: #fff !important;
+}
+
+.reportIncidentInputText input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.reportIncidentInputText {
+  display: flex;
+  align-items: center;
+}
+
+.reportIncidentInputText .float-select>label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 12px !important;
+}
+
+.reportIncidentBtn {
+  margin-right: 20px !important;
+  background-color: #5b47fb !important;
+  color: #fff;
+  border: none;
+}
+
+.reportIncidentButtonsContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reportIncidentMainContent .form-floating>.form-control,
+.form-floating>.form-control:not(:placeholder-shown),
+.form-floating:focus-within>.form-control {
+  padding: 6px 15px;
+  line-height: 25px;
+  height: 42px;
+}
+
+.reportIncidentText .resizable-textfield .MuiInputBase-root {
+  resize: block !important;
+  min-height: 100px;
+  background-color: #ffffff !important;
+  width: 100%;
+}
+
+.reportIncidentText {
+  display: flex;
+  align-items: center;
+}
+
+.reportIncidentInputText {
+  display: flex;
+  align-items: center;
+}
+
+.reportIncidentSelectText {
+  display: flex;
+  align-items: center;
+}
+
+.reportIncidentText .float-select>label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+}
+
+.reportIncidentInputText .float-select>label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+}
+.reportIncidentTimeText .MuiFormLabel-root.MuiInputLabel-root{
+  font-family: "Roboto", sans-serif;
+  font-size: 18px !important;
+  color:#031b4e !important;
+  left:-11px !important;
+}
+.reportIncidentSelectText .float-select>label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+}
+
+.reportIncidentText .resizable-textfield .MuiInputBase-root {
+  background-color: #fff !important;
+}
+
+.reportIncidentText textarea {
+  height: 85px !important;
+}
+
+.reportIncidentInputText .resizable-textfield .MuiInputBase-root {
+  background-color: #fff !important;
+}
+
+.reportIncidentSelectText .resizable-textfield .MuiInputBase-root {
+  background-color: #fff !important;
+}
+
+.reportIncidentInputText input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.reportIncidentTimeText {
+  display: flex;
+  align-items: center;
+}
+
+.reportIncidentTimeText .MuiFormControl-root.MuiTextField-root {
+  width: 100% !important;
+}
+
+.reportIncidentTimeText .MuiInputBase-input {
+  padding: 9px 15px !important;
+  border-radius: 0px !important;
+}
+
+.reportIncidentText .MuiInputBase-input:focus-visible {
+  outline: none !important;
+}
+
+.reportIncidentTimeText .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 0px !important;
+}
+
+.reportIncidentMainContent {
+  display: flex;
+}
+
+.reportIncidentContent {
+  width: 50% !important;
+}
+
+.reportIncidentContent.reportIncidentLeftText {
+  border-right: 1px solid #cdd4e0 !important;
+  padding-right: 15px !important;
+}
+.reportIncidentBtn{color: #fff;
+  background-color: #596882 !important;
+  border-color: #4f5c73 !important;}
+.reportIncidentDate input{padding-left: 0px !important;}
+.reportIncidentContent .form-control{font-size: 14px !important;}
+.floatStatus .clear-selected-button{display: none !important;}
+.floatStatus .dropdown-container{border-radius: 0px !important;}
+.custom-multiselect .multi-select__placeholder {
+  color: #1c273c !important;
+}
+.floatStatus .custom-multiselect .dropdown-container .dropdown-heading{padding: 6px 15px !important;height: 42px !important;}
+.floatStatus .custom-multiselect .dropdown-container span{color: #1c273c !important;}
+.floatStatus .custom-multiselect .dropdown-container{width:100% !important;}
+.DateofIncidentRegister{padding-left: 0px !important;}

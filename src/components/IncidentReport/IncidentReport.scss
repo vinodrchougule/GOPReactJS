@@ -1,0 +1,144 @@
+.incidentReportData {
+    display: flex;
+    align-items: center;
+  }
+  
+  .incidentReportData .float-select>label {
+    display: block !important;
+    position: absolute;
+    top: -10px !important;
+    left: 5px !important;
+    background: #fff !important;
+    font-size: 14px !important;
+  }
+  .incidentReportData .MuiInputBase-input.MuiOutlinedInput-input {
+    height: 80px !important;
+  }
+  .incidentReportBtn {
+    margin-right: 20px !important;
+    background-color: #5b47fb !important;
+    color: #fff;
+    border: none;
+  }
+  .createnm.mroDictionayViewrVersionSelected .float-select > label{font-size: 14px !important;}
+  .incidentReportMainText {
+    height: 100% !important;
+  }
+  .masters-material-table.incidentReportTableContent {
+    height: 100% !important;
+  }
+  
+  .masters-material-table.incidentReportTableContent .MuiPaper-root.MuiPaper-elevation {
+    max-height: 100% !important;
+    overflow: auto;
+  }
+  
+  .masters-material-table.incidentReportTableContent .MuiTableContainer-root {
+    
+    height: calc(100vh - 335px) !important;
+  }
+  
+  .masters-material-table.incidentReportTableContent tr td {
+    padding: 0.3rem !important;
+    white-space: nowrap !important;
+  }
+  
+  .masters-material-table.incidentReportTableContent {
+    height: 100% !important;
+  }
+  
+  .masters-material-table.incidentReportTableContent .MuiBox-root.css-10gei56 {
+    min-height: 55px !important;
+    display: block !important;
+  }
+  .incidentReportBody .masters-material-table.incidentReportTableContent .MuiTableContainer-root {
+    max-height: 255px !important;
+    min-height: 255px !important;
+    height: 100% !important;
+  }
+  .masters-material-table.incidentReportTableContent .editIncidentIcon {
+    padding: 6px !important;
+  }
+  
+  .masters-material-table.incidentReportTableContent .editActionOnIncidentIcon {
+    padding: 6px !important;
+  }
+  
+  .masters-material-table.incidentReportTableContent .deleteIncidentIcon {
+    padding: 6px !important;
+  }
+  
+  .masters-material-table.incidentReportTableContent .editIncidentIcon .MuiSvgIcon-root {
+    width: 0.8em !important;
+    height: 0.8em !important;
+  }
+  
+  .masters-material-table.incidentReportTableContent .editActionOnIncidentIcon .MuiSvgIcon-root {
+    width: 0.8em !important;
+    height: 0.8em !important;
+  }
+  
+  .masters-material-table.incidentReportTableContent .deleteIncidentIcon .MuiSvgIcon-root {
+    width: 0.8em !important;
+    height: 0.8em !important;
+  }
+  .incidentReportModal .modal-dialog {
+    max-width: 1500px !important;
+    left: 0% !important;
+  }
+  
+  @media screen and (min-width:1800px) {
+    .incidentReportModal .modal-dialog {
+      left: 11% !important;
+    }
+  }
+  
+  .incidentReportModal .modal-content {
+    left: 0% !important;
+  }
+  
+  .incidentReportModal .modal-footer {
+    justify-content: center;
+  }
+  @media screen and (min-width:1000px) and (max-width:1300px) {
+  .incidentReportModal .modal-dialog {
+    max-width: 1200px !important;
+    left: 2% !important;
+  }
+}
+@media screen and (min-width:1400px) and (max-width:1500px) {
+  .incidentReportModal .modal-dialog {
+    max-width: 1200px !important;
+    left: 7% !important;
+  }
+}
+@media screen and (min-width:1501px) and (max-width:1600px) {
+  .incidentReportModal .modal-dialog {
+    max-width: 1200px !important;
+    left: 9% !important;
+  }
+}
+.masters-material-table.incidentReportTableContent .MuiTableBody-root .MuiTableRow-root .MuiTableCell-root .MuiButtonBase-root{opacity: 1 !important;}
+.incidentReportBtn{color: #fff;
+  background-color: #596882 !important;
+  border-color: #4f5c73 !important;}
+.incidentReportData .form-control{font-size: 14px !important;}
+.incidentReportModal .reportIncidentTimeText .MuiInputBase-root.MuiOutlinedInput-root .Mui-readOnly{background-color: #e3e7ed !important;font-size: 14px !important;}
+.incidentReportModal .reportIncidentTimeText .MuiFormLabel-root.MuiInputLabel-root {
+  display: block !important;
+  position: absolute;
+  background: #fff !important;
+}
+.incidentReportModal .modal-body{max-height: 550px;overflow: auto;padding: 0px 25px;}
+.reportIncidentText .resizable-textfield.actionTextAreaRead .MuiInputBase-root{background-color: #e3e7ed !important;}
+.incidentReportModal .readonly-multiselect .dropdown-container {
+  pointer-events: none; 
+  background-color: #e3e7ed; 
+  cursor: not-allowed;
+  width: 100% !important;
+}
+
+.incidentReportModal .readonly-multiselect .dropdown-heading {
+  border: none !important; 
+  width: 100% !important;
+}

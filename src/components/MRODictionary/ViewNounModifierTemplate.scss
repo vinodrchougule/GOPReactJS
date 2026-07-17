@@ -1,0 +1,173 @@
+
+.form-control[type="checkbox"] {
+    width: auto;
+    height: auto;
+    margin-right: 10px; 
+  }
+    
+  .d-flex .ml-2 {
+    margin-left: 10px; 
+  }
+   
+  .pdqcmro.masters-material-table.nmtable{
+    height: auto !important;
+  }
+  .row.mrodict{
+    border: 1px solid rgb(205, 212, 224);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .form-control.isltchk{margin-left: 10px !important;}
+  .form-control.myfrm.mrodict{background-color: rgba(255, 255, 255, 0.5);}
+  .form-control.myfrm.mrovrsn{background-color: rgba(255, 255, 255, 0.5) !important;}
+  .mrodict h6{margin-bottom: 0px;margin-left: 3px;}
+  .form-control.isltchk.actv{
+    background-color: rgb(91, 71, 251) !important;
+    opacity: 0.5;
+    margin-left: 10px !important;
+  }
+  .mrodict .table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 0px !important;
+  }
+  .mrodict .table td {
+    border: none; 
+  }
+  .mrodict .table td, .mrodict .table th {
+    border-top: 0;
+    vertical-align: middle;
+  }
+  .pdqcmro.masters-material-table tr td{min-width: 15% !important;}
+  .pdqcmro.masters-material-table tr th {
+    min-width: 15% ;
+  }
+  .mrodict .table .col-md-8.mrcnt{float: left;display: flex;align-items: center;justify-content: space-between;}
+  .mrodict .table .col-md-2.mrcnt{min-width: 18%;
+    float: right;
+    display: block;
+    margin-right: auto;}
+  .MuiTableRow-root:active{background-color: rgb(242, 242, 242) !important;}
+  .Mui-TableHeadCell-Content-Wrapper.MuiBox-root.css-lapokc{white-space: nowrap !important;}
+  .Mui-TableHeadCell-Content-Wrapper.MuiBox-root.css-1t5kuvk{white-space: nowrap !important;}
+  .Mui-TableHeadCell-Content-Labels.MuiBox-root.css-15qrapg{padding-left: 0px !important;}
+  .mrodictbtn{
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .form-control {
+    height: 38px;
+    border-radius: 0;
+  }
+  .resizable-textfield .MuiInputBase-root{background-color: #fff !important;border-radius: 0px !important;}
+  .mymnmdl.viewsug.mrdictionary.nmmdl .modal-content {
+    max-width: 965px !important;
+  }
+  .mymnmdl.viewsug.mrdictionary.nmmdl .modal-body{padding: 10px !important;}
+  .nmbtn{margin-right: 10px !important;background-color: #5b47fb !important;
+    color: #fff;
+    border: none;}
+    .nmbtn:hover{margin-right: 10px !important;background-color: #5b47fb !important;
+      color: #fff;
+      border: none;}
+  .mymnmdl.viewsug.mrdictionary.mymnmdl .modal-header{
+    justify-content: space-between !important;
+    padding: 10px !important;
+  }
+  .beltimg{width: 100%;
+    height: 100vh;
+    visibility: hidden;}
+.ViewTableContent{display: flex;align-items: center;justify-content: space-between;width:350px;}
+
+
+@media screen and (min-width:1601px) and (max-width:2000px){
+    .pdqcmro.masters-material-table.viewnounmodifiertable .MuiTableContainer-root{
+        max-height: 100% !important;
+        height:calc(50vh - 310px) !important;
+    }
+    .pdqcmro.masters-material-table.viewnounmodifiertable{
+        height:100% !important;
+    }
+    .pdqcmro.masters-material-table.viewnounmodifiertable.viewnounmodifierimagetable .MuiTableContainer-root {
+        max-height: 100vh !important;
+        height:100% !important;
+    }
+}
+@media screen and (min-width:2001px){
+    .pdqcmro.masters-material-table.viewnounmodifiertable .MuiTableContainer-root{
+        max-height: calc(100vh - 625px) !important;
+        height:100% !important;
+    }
+    .pdqcmro.masters-material-table.viewnounmodifiertable{
+        height:100% !important;
+    }
+    .pdqcmro.masters-material-table.viewnounmodifiertable.viewnounmodifierimagetable .MuiTableContainer-root {
+        max-height: calc(100vh - 320px) !important;
+    }
+}
+.pdqcmro.masters-material-table.viewnounmodifiertable .MuiPaper-root.MuiPaper-elevation{overflow: auto;}
+.fa-pencil:before {
+  content: "\f303" !important;
+}
+.fa-refresh:before {
+  content: "\f021" !important;
+}
+.deletemodalcontent{position: fixed;left:0% !important;top:0% !important;}
+.deletemodalcontent .modal-content{position: fixed;
+  left: 50% !important;
+  top: 50% !important;
+  width: 85%;
+  height: 85%;}
+.deletemodalcontent .modal-dialog{max-width: 543px !important;
+    height: 200px !important;
+   }
+  .deletemodalcontent.mymnmdl.viewsug.mrdictionary.nmmdl .modal-content{max-width: 570px !important;
+    height: 200px !important;
+   }
+.deletemodalcontent.mymnmdl.viewsug.mrdictionary.nmmdl .modal-body {display: flex;align-items: center;padding: 25px !important;}
+.deletemodalcontent.mymnmdl.viewsug.mrdictionary.nmmdl .modal-body p {margin-bottom: 0px !important;}
+.deletemodalcontent .modal.show .modal-dialog {
+  transform: none;
+}
+.deletemodalcontent .modal-content{max-width: 570px !important;
+  height: 200px !important;
+ }
+.deletemodalcontent.mymnmdl.viewsug.mrdictionary.nmmdl .modal-header{background-color: #ffffff !important;padding: 20px 25px !important;border-bottom: none !important;}
+.deletemodalcontent.mymnmdl.viewsug.mrdictionary.nmmdl .modal-footer {
+  justify-content: right;
+  background-color: #ffffff !important;
+  padding: 0.75rem !important;
+}
+.deletemodalcontent .modal-title{color: #5e76ac !important;}
+.fade.edit-gop-modal.deletemodalcontent.modal.show{transition: none !important;}
+.viewmaincontent{height:100% !important;}
+.viewmaincontent .pdqcmro.masters-material-table.nmtable.unspcimg{height: 100% !important;}
+.masters-material-table tr th{background-color:#d5e1f5 !important;}
+.viewmaincontent .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation2.css-1atu56z-MuiPaper-root{height:100% !important;max-height: 100% !important;}
+.pdqcmro.masters-material-table.viewnounmodifiertable .MuiTableContainer-root{max-height: 160px !important;min-height: 160px !important;}
+.pdqcmro.masters-material-table.nmtable.unspcimg.viewNounModifierTemplateImageTable .MuiTableContainer-root {
+  height: 100% !important;
+  min-height: 870px !important;
+  max-height: 870px !important;
+  overflow: auto;
+}
+.viewNounModifierTemplateInput .float-select > label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 12px !important;
+  z-index: 999 !important;
+}
+.viewNounModifierModelInput .float-select > label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 12px !important;
+}
+.viewNounModifierModelInput.editImageData .float-select > label {z-index: 999 !important;}

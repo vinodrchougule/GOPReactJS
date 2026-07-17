@@ -1,0 +1,297 @@
+ .mroDictionary-screens {
+    background-color: transparent;
+    height: 25px !important;
+  }
+  .mroDictionary-tooltip {
+    background: #f5f5f5;
+    border-radius: 0;
+    // z-index: 99999;
+    width: 6% !important;
+    height: 25px !important;
+    display: flex;
+    align-items: center;
+  }
+  .unsp-cateory-fields {
+    position: relative;
+  }
+  
+  .pagination-icon {
+    display: flex;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+    width: 9%;
+    padding: 0 3px;
+  }
+  .unspsc-page-input {
+    text-align: center;
+    width: 50px !important;
+    height: 100%;
+  }
+  .pag-prev,
+  .pag-next {
+    cursor: pointer;
+  }
+  
+  /* Tooltip Screens */
+  
+  /* Media Query Tooltip Screens */
+  @media only screen and (max-width: 1366px) {
+    .definaion-div{
+      height: 60% !important;
+    }
+    .segmment-section {
+      height: 40% !important;
+    }
+  }
+  @media only screen and (max-width: 1280px) {
+    .favicity-select select, .dot-label, .Unspc-custom-table .table-bordered td, .Unspc-custom-table .table-bordered th, .unspsc-text, .unspsc-select option, .pro-icon, .unspsc-input, .most-pro, .pro-table-head, .ladder-input, .pro-table-body, .commodity-head, .favicity-select, .version-text, .default-search, .category-text, .search-box-div, .check-label, .pagination-div{
+      font-size: 0.65rem !important;
+    }
+    .unspsc-check {
+      height: 12px !important;
+      width: 12px !important;
+  }
+  }
+  @media only screen and (min-width: 1366px) and (max-width: 1440px) {
+    .az-header {
+      height: 50px !important;
+    }
+    .unspsc-version-section {
+      .unspsc-text {
+        min-width: 28%;
+      }
+    }
+    .favicity-select select,
+    .dot-label,
+    .Unspc-custom-table .table-bordered td,
+    .Unspc-custom-table .table-bordered th,
+    .unspsc-text,
+    .unspsc-select option,
+    .pro-icon,
+    .unspsc-input,
+    .most-pro,
+    .pro-table-head,
+    .ladder-input,
+    .pro-table-body,
+    .commodity-head,
+    .favicity-select,
+    .version-text,
+    .default-search,
+    .category-text,
+    .search-box-div,
+    .check-label,
+    .pagination-div {
+      font-size: 0.70rem;
+    }
+    .span-cat {
+      font-size: 0.85rem;
+    }
+    .unspsc-version-section {
+      min-height: 20px;
+    }
+    .text-div {
+      padding: 0.6% 10px;
+    }
+    .az-header-menu .nav-item.active > .nav-link::before {
+      bottom: -14px !important;
+    }
+    .extra-row {
+      padding: 3px 0;
+    }
+    .search-box-div {
+      padding: 0 !important;
+    }
+    .input-part {
+      padding: 5px 10px;
+    }
+    .ladder-input,
+    .category-text,
+    .unspsc-input {
+      height: 18px !important;
+    }
+    .Unspc-custom-table .table-bordered td,
+    .Unspc-custom-table .table-bordered th {
+      height: 15px !important;
+    }
+    .favicity-select {
+      height: 18px;
+    }
+    .unspsc-head {
+      margin: 3px 0 0 0px;
+    }
+  
+    .table-div {
+      margin: 0 0 0 16px;
+      width: 96%;
+    }
+  
+    .pagination-search {
+      width: 28px;
+    }
+  
+    .ladder-input,
+    .unspsc-sea {
+      max-width: 100%;
+      width: auto;
+    }
+  
+    .danger-vert-line {
+      // left: 2.5%;
+      top: 23%;
+    }
+    .danger-horiz-line {
+      top: 35% !important;
+    }
+    .success-vert-line {
+      top: 48%;
+    }
+    .success-horiz-line {
+      top: 60%;
+    }
+    .Class-vert-line {
+      top: 73%;
+    }
+    .Class-horiz-line {
+      top: 85%;
+    }
+    .pro-search {
+      width: 98.6%;
+    }
+  
+    .pro-end-padding {
+      padding-right: 9px;
+    }
+  
+    .input-part {
+      width: 100% !important;
+    }
+  
+    .unspsc-sea {
+      width: 99%;
+    }
+  
+    .unspsc-check {
+      width: 13px;
+    }
+  
+    .mroDictionary-close-modal {
+      left: 650px !important;
+      top: 710px !important;
+    }
+  
+    .table-container tbody {
+      height: 80px !important;
+    }
+  
+    .dot-display {
+      width: 10px;
+      height: 10px;
+    }
+    /* when we change resolution from system setting */
+  }
+  
+  @media only screen and (min-width: 1441px) and (max-width: 1832px) {
+    .pagination-search {
+      width: 35px;
+    }
+  
+    .table-div {
+      margin: 0 0 0 11px;
+      width: 97%;
+    }
+  
+    .other-search,
+    .ladder-input,
+    .unspsc-sea {
+      max-width: 100%;
+    }
+  
+    .input-part {
+      width: 100% !important;
+    }
+  
+    .danger-horiz-line {
+      left: 10px;
+    }
+  
+    // .success-search {
+    //   margin: 7px 0 0 25px;
+    // }
+  
+    .default-search {
+      width: 86%;
+    }
+  
+    .unspsc-check {
+      width: 13px;
+    }
+  
+    .ladder-input {
+      margin-right: 2px;
+      width: auto;
+    }
+  
+    .pro-end-padding {
+      padding-right: 8px;
+    }
+  }
+  
+  /* Media Query Tooltip Screens */
+  
+  /* styles.css */
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+    80% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .version-text {
+    animation: blink 1.5s infinite;
+    color: #ec4a0f;
+  }
+  
+  .add-mroDictionary-modal .modal-dialog {
+    max-width: 100%;
+    z-index: 99999;
+  }
+  .add-mroDictionary-modal .modal-content {
+    height: 100%;
+  }
+  
+  .mroDictionary-modal-data {
+    padding: 0.5% 1%;
+    height: 100%;
+  }
+  
+  .mroDictionary-btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+  }
+  
+  .mroDictionary-close-modal {
+    left: 908px;
+    top: 820px;
+  }
+  
+  .modal-btn {
+    padding: 3px 15px;
+    min-height: 100%;
+  }
+  

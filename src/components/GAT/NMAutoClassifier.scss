@@ -1,0 +1,128 @@
+@media screen and (min-width:1000px){
+  .mymnmdl.viewsug.mrdictionary .modal-content{
+    max-width: 500px !important;
+  }
+  .mymnmdl.viewsug.mrdictionary .modal-body{
+    padding: 0px !important;
+  }
+  .mymnmdl.viewsug.mrdictionary .modal-footer{
+    margin: 0px !important;
+  }
+}
+.mysgtdta.successmsg{width:100%;display: block;}
+.mysgtdta.successmsg .alert.alert-success{height: 100%;background: none !important;border:1px solid green;color:green;border-width: 1px !important;}
+.mrdictionary .mrodictcnt{width: fit-content;}
+
+  .mymnmdl.viewsug.mrdictionary .modal-content{
+    max-width: 500px !important;
+  }
+  .mymnmdl.viewsug.mrdictionary .modal-body{
+    padding: 0px !important;
+    background-color: #fff !important;
+  }
+  .mymnmdl.viewsug.mrdictionary .modal-header{
+    padding: 10px 25px !important;
+  }
+  .mymnmdl.viewsug.mrdictionary .modal-footer{
+    margin: 0px !important;
+    padding: 6px !important;
+  }
+  .mymnmdl.viewsug.mrdictionary .modal-footer .vewsubmit-button.btn.btn-secondary{
+    margin: 0px !important;
+    padding: 7px 20px !important;
+  }
+  .mrdictionary .mymdldata{background: none !important;border:none !important;}
+  .mrdictionary .table tr td{border:none !important;padding: 7px 10px !important;} 
+  .reptimg{color:#5b47fb !important}
+  .mymnmdl.viewsug.mrdictionary .modal-header{
+    justify-content: center;
+  }
+  .mrodicttblebdy{position: relative;
+    
+    width:100%;
+    display: block;
+    }
+    .modal-backdrop.show{
+      opacity:0.5 !important;
+      background-color: #0c1019 !important;
+    }
+    .modal-backdrop{
+      opacity:0.5 !important;
+      background-color: #0c1019 !important;
+    }
+.mrodta.alert.alert-danger{background: none !important;border:1px solid red;color:red !important;}
+.insttxt{text-align:center;display: flex;align-items: center;justify-content: center;}
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+  .az-header-menu .nav-item + .nav-item {
+      margin-top: 0;
+      margin-left: 6px !important;
+  }
+}
+
+.mrodatamodel .modal-content{
+  left: 0%;
+  top: 40%;
+  width:100%;
+  }
+  .mrodatamodel .modal-dialog{
+    left: 33%;
+    width:100%;
+    }
+  .mrodatamodel.myvlddta .modal-content{
+    left: 0%;
+    top: 30%;
+    width:100%;
+    height: 80%;
+    }
+    .mrodatamodel.myvlddta .modal-dialog{
+      left: 18%;
+    width:100%;
+    top:0%;
+    height: 80%;
+      }
+
+.vldt-dta{display: flex;align-items: center;}
+.mrodatamodel.myvlddta .modal-dialog{max-width: 1100px !important;}
+
+.vewsubmit-button.myvldtbtn{display: block;margin: 0 auto;}
+.mrodatamodel.myvlddta .table-bordered thead th, .table-bordered thead td{border-top-width: 1px !important;}
+.mrodatamodel.myvlddta .modal-header {background-color: #D5E1F5 !important;padding: 15px 25px !important;}
+.mrodatamodel.myvlddta .table td {
+  padding: 9px 8px;
+  line-height: 1;
+}
+.mrodatamodel.myvlddta .table thead tr th {
+  position: inherit !important;
+  padding: 9px 8px;
+  line-height: 1;
+}
+.form-control {
+  height: 38px;
+  border-radius: 0;
+}
+.resizable-textfield .MuiInputBase-root{background-color: #fff !important;border-radius: 0px !important;}
+.mymnmdl.viewsug.mrdictionary.nmmdl .modal-content {
+  max-width: 965px !important;
+}
+.mymnmdl.viewsug.mrdictionary.nmmdl .modal-body{padding: 10px !important;}
+.nmbtn{margin-right: 10px !important;background-color: #5b47fb !important;
+  color: #fff;
+  border: none;}
+  .nmbtn:hover{margin-right: 10px !important;background-color: #5b47fb !important;
+    color: #fff;
+    border: none;}
+.mymnmdl.viewsug.mrdictionary.mymnmdl .modal-header{
+  justify-content: space-between !important;
+  padding: 10px !important;
+}
+.beltimg{width: 100%;
+  height: 100vh;
+  visibility: hidden;}
+.mndatry{display:flex; align-items: center;}
+.mndatry label{display:flex;}
+.mndatry input{margin-right: 5px;}
+.pdqcmro.masters-material-table.nmtable.unspcimg .MuiBox-root.css-1p0wbhh{display: none !important;}
+.pdqcmro.masters-material-table.nmtable.unspcimg .MuiTableContainer-root{height:100% !important;}
+.syncsv{visibility: hidden;}
+.masters-material-table tr th{border-right: 1px solid rgba(224, 224, 224, 1);}
+.masters-material-table tr td{border-right: 1px solid rgba(224, 224, 224, 1);}

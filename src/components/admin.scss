@@ -1,0 +1,329 @@
+@media screen and (min-width: 1020px) {
+  .admin-table-height, .userlist-table-height {
+    margin: 2% 0 0 0;
+  }
+  
+  .admin-table-height {
+    max-height: calc(100vh - 300px);
+  }
+
+  .userlist-table-height {
+    max-height: calc(100vh - 360px);
+  }
+}
+
+.image-display {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  p {
+    margin: 0;
+    padding: 0.4rem 0;
+  }
+}
+.edit-photo-text {
+  color: #3366ff !important;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+// @media screen and (min-width: 1280px) and (max-width: 1366px) {
+//   // .admin-table-height {
+//   //   height: 350px;
+//   // }
+
+//   .userlist-table-height {
+//     height: 310px;
+//   }
+// }
+
+// @media screen and (min-width: 1400px) and (max-width: 1439px) {
+//   .admin-table-height {
+//     height: 750px;
+//   }
+
+//   .userlist-table-height {
+//     height: 700px;
+//   }
+// }
+
+// @media screen and (min-width: 1440px) and (max-width: 1599px) {
+//   .admin-table-height {
+//     height: 600px;
+//   }
+
+//   .userlist-table-height {
+//     height: 550px;
+//   }
+// }
+
+// @media screen and (min-width: 1600px) and (max-width: 1679px) {
+//   .admin-table-height {
+//     height: 580px;
+//   }
+
+//   .userlist-table-height {
+//     height: 550px;
+//   }
+// }
+
+// @media screen and (min-width: 1680px) and (max-width: 1919px) {
+//   .admin-table-height {
+//     height: 730px;
+//   }
+
+//   .userlist-table-height {
+//     height: 700px;
+//   }
+// }
+
+// @media screen and (min-width: 1920px) and (max-width: 2111px) {
+//   .admin-table-height {
+//     height: 650px;
+//   }
+
+//   .userlist-table-height {
+//     height: 630px;
+//   }
+// }
+
+/*Roles List css starts here*/
+.masters-material-table.rolesListTable{height: calc(100vh - 240px) !important;}
+.masters-material-table.rolesListTable .MuiTableContainer-root {
+  height: calc(100vh - 270px) !important;
+}
+@media screen and (min-width:1000px) and (max-width:1600px){
+  .masters-material-table.rolesListTable .MuiTableContainer-root {
+    height: calc(100vh - 245px) !important;
+  }
+}
+.rolesListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(244, 246, 248, 1) !important; 
+}
+.rolesListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+.rolesListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(255, 255, 255, 255) !important; 
+}
+.rolesListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+/*Roles List css end*/
+
+
+/*View Role css starts here*/
+.viewRoleDeleteModal.modal .modal-dialog {transform: none; display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+/*View Role css end*/
+
+/*Create User css starts here*/
+.createUserFloatingInput .float-select > label {display: block !important; position: absolute; top: -10px !important; left: 5px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+}
+.createUserFloatingChooseFileInput .float-select > label {display: block !important; position: absolute; top: -16px !important; left: 5px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+}
+/*Create User css end*/
+
+/*Edit User css starts here*/
+.createUserFloatingDateInput .float-select > label {display: block !important; position: absolute; top: -16px !important; left: 5px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+}
+.createUserFloatingDateInput .form-control.date-field-width{height:42px !important;width:100%;}
+.createUserFloatingDateInput .btn.btn-secondary{min-height: 42px !important; max-height: 42px !important;}
+.createUserFloatingChooseFileInput .form-control{min-height: 42px !important; max-height: 42px !important;}
+/*Edit User css end*/
+.masters-material-table.createUserListTable{height: 100% !important;}
+.masters-material-table.createUserListTable .MuiTableContainer-root {
+  height: calc(100vh - 400px) !important;
+}
+@media screen and (min-width:1000px) and (max-width:1600px){
+  .masters-material-table.createUserListTable .MuiTableContainer-root {
+    height: calc(100vh - 370px) !important;
+  }
+}
+.createUserListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(244, 246, 248, 1) !important; 
+}
+.createUserListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+.createUserListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(255, 255, 255, 255) !important; 
+}
+.createUserListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+/*Create Role css starts here*/
+.createRoleFloatingInput .float-select > label {display: block !important; position: absolute; top: -10px !important; left: 5px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+}
+/*Create Role Access css end*/
+
+/*Edit Role css starts here*/
+.editRoleFloatingInput .float-select > label {display: block !important; position: absolute; top: -10px !important; left: 5px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+}
+/*Edit Role Access css end*/
+
+/*View Role Access css starts here*/
+.masters-material-table.viewRoleAccessListTable{height: 100% !important;}
+.masters-material-table.viewRoleAccessListTable .MuiTableContainer-root {
+  height: calc(100vh - 400px) !important;
+}
+@media screen and (min-width:1000px) and (max-width:1600px){
+  .masters-material-table.viewRoleAccessListTable .MuiTableContainer-root {
+    height: calc(100vh - 375px) !important;
+  }
+}
+.viewRoleAccessListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(244, 246, 248, 1) !important; 
+}
+.viewRoleAccessListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+.viewRoleAccessListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(255, 255, 255, 255) !important; 
+}
+.viewRoleAccessListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+.viewRoleAccessFloatingInput .float-select > label {display: block !important; position: absolute; top: -10px !important; left: 5px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+}
+/*View Role Access css end*/
+
+/*Edit Role Access css starts here*/
+.masters-material-table.editRoleAccessListTable{height: 100% !important;}
+.masters-material-table.editRoleAccessListTable .MuiTableContainer-root {
+  height: calc(100vh - 400px) !important;
+}
+@media screen and (min-width:1000px) and (max-width:1600px){
+  .masters-material-table.editRoleAccessListTable .MuiTableContainer-root {
+    height: calc(100vh - 375px) !important;
+  }
+}
+.editRoleAccessListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(244, 246, 248, 1) !important; 
+}
+.editRoleAccessListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+.editRoleAccessListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(255, 255, 255, 255) !important; 
+}
+.editRoleAccessListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+
+.editRoleAccessFloatingInput .float-select > label {display: block !important; position: absolute; top: -10px !important; left: 5px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+}
+/*Edit Role Access css end*/
+
+/*Roles List css starts here*/
+.masters-material-table.rolesAccessListTable{height: calc(100vh - 240px) !important;}
+.masters-material-table.rolesAccessListTable .MuiTableContainer-root {
+  height: calc(100vh - 270px) !important;
+}
+@media screen and (min-width:1000px) and (max-width:1600px){
+  .masters-material-table.rolesAccessListTable .MuiTableContainer-root {
+    height: calc(100vh - 245px) !important;
+  }
+}
+.rolesAccessListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(244, 246, 248, 1) !important; 
+}
+.rolesAccessListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+.rolesAccessListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(255, 255, 255, 255) !important; 
+}
+.rolesAccessListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+/*Roles List css end*/
+
+/*User List css starts here*/
+.masters-material-table.usersListTable{height: calc(100vh - 240px) !important;}
+.masters-material-table.usersListTable .MuiTableContainer-root {
+  height: calc(100vh - 270px) !important;
+}
+@media screen and (min-width:1000px) and (max-width:1600px){
+  .masters-material-table.usersListTable .MuiTableContainer-root {
+    height: calc(100vh - 245px) !important;
+  }
+}
+.usersListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(244, 246, 248, 1) !important; 
+}
+.usersListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+.usersListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(255, 255, 255, 255) !important; 
+}
+.usersListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+/*User List css end*/
+
+/*User Role List css starts here*/
+.masters-material-table.usersRolesListTable{height: calc(100vh - 240px) !important;}
+.masters-material-table.usersRolesListTable .MuiTableContainer-root {
+  height: calc(100vh - 270px) !important;
+}
+@media screen and (min-width:1000px) and (max-width:1600px){
+  .masters-material-table.usersRolesListTable .MuiTableContainer-root {
+    height: calc(100vh - 245px) !important;
+  }
+}
+.usersRolesListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(244, 246, 248, 1) !important; 
+}
+.usersRolesListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+.usersRolesListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(255, 255, 255, 255) !important; 
+}
+.usersRolesListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+/*User Role List css end*/
+.sldeuserroles .switch{margin-left: 10px !important;}
+.sldeuserroles label{margin-bottom: 0px !important;}
+.margin-not-collpased-admin.admn-mn-page{margin-left: 170px !important;}
+.userp-l-0{padding-left: 0px !important;}
+.userp-r-0{padding-right: 0px !important;}
+
+.switch.createUserRoleSwitch .slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: 0;}
+.switch.createUserRoleSwitch .slider:before {
+  position: absolute;
+  left: 0px;}
+
+  
+
+  
+
+  
+
+  
+
+  

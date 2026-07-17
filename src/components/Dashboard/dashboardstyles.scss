@@ -1,0 +1,332 @@
+/* Edit Data CSS */
+.table-pro {
+    table-layout: auto !important;
+    width: 100%;
+  }
+  
+  .table-pro td {
+    white-space: nowrap;
+  }
+  
+  .my-edit, .close-btn, .pro-book {
+    cursor: pointer;
+  }
+  
+  .my-edit {
+    margin: 0 0 0 94%;
+  }
+
+  .pro-book {
+    margin-left: 90%;
+    margin-bottom: -6%;
+  }
+  
+  .edit-data-modal .modal-dialog {
+    max-width: 82%;
+    top: 0;
+  }
+  
+  .update-data {
+    padding: 2%;
+  }
+  
+  .border-data {
+    border: 1px solid #cdd4e0 !important;
+    margin: 5px 0 15px 0;
+  }
+  
+  .pro-act-btn {
+    border-color: #596882;
+    box-shadow: none;
+  }
+  
+  .can-btn, .upd-btn:hover {
+    background-color: #fff;
+    border: 1px solid #596882 !important;
+    color: #596882;
+  }
+  
+  .upd-btn, .can-btn:hover {
+    background-color: #596882;
+    color: #fff;
+  }
+  /* Edit Data CSS */
+  
+  /* AG Grid Table */
+  .example-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .grid-wrapper {
+    flex: 1 1 0px;
+  }
+  .user-name {
+    cursor: pointer;
+    color: #3366ff;
+  }
+  
+  #myGrid {
+    height: 100%;
+    width: 100%;
+  }
+  /* AG Grid Table */
+  
+  /* Read Only Column */
+  .moveAndCopySect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .moveAndCopy {
+    box-shadow: none !important;
+    border-radius: 25px;
+  }
+  
+  .readOnlyTable {
+    text-align: center;
+    display: block;
+  }
+  
+  #dropdown-customerCode-button, #dropdown-projectCode-button, #dropdown-batchNumber-button, .customerCode-button .dropdown-menu.show, .projectCode-button .dropdown-menu.show, .batchNumber-button .dropdown-menu.show   {
+    box-shadow: none !important;
+    text-align: left;
+    width: 100%;
+  }
+
+  .card-header{
+    padding: 5px 20px !important;
+    background-color: #fff;
+  }
+
+  .card-dashboard-one {
+    border: none !important;
+  }
+  .table-header-card {
+    min-height: 8%;
+  }
+  .dashboard-table-section {
+    height: 92%;
+    padding-top: 8px;
+  }
+
+  .unspsc-close-modal {
+    left: 28% !important;
+    top: 710px !important;
+  }
+
+  .project-cards {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+    .card-body-top{
+      background-color: rgb(26, 183, 234);
+      padding: 10px 20px !important;
+      height: 100%;
+      border-radius: 6px;
+      align-items: center;
+      width: 48%;
+      justify-content: space-around;
+      .card-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        label {
+          color: #fff !important;
+          font-size: 16px !important;
+        }
+        .text-center {
+          font-size: 20px !important;
+          color: #fff !important;
+          border: 3px solid #fff;
+          border-radius: 50%;
+          height: 100px;
+          width: 100px;
+          padding: 4px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      
+    }
+  }
+
+  .project-data {
+    padding-left: 0 !important;
+    padding-right: 5px !important;
+  }
+  .costomer-data{
+    padding-left: 5px !important;
+    padding-right: 0 !important;
+  }
+
+  .card-link-div {
+    .card-dashboard-two {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      box-shadow: 0px 0px 8px -1.9px #ccc;
+      border: none !important;
+      border-radius: 6px;
+      .card-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .data-count {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 20px !important;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+
+    .main-table-div {
+      height: 68%;
+    }
+.table-display-data {
+    border-top: 1px solid #eee;
+    .table {
+      margin-bottom: 0 !important;
+    }
+  .table td, .table th {
+    border-top-width: 0 !important;
+    padding: 3px 8px;
+  }
+}
+  .custom-radial {
+    // min-height: 86% !important;
+    // max-height: 86% !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    .apexcharts-canvas{
+      width: 100% !important;
+      height: 100% !important;
+    }
+    svg {
+      height: 100% !important;
+    }
+  }
+  .card-row-section {
+    min-height: 20%;
+  }
+  .project-card-body {
+    flex-wrap: wrap;
+  }
+  
+  @media only screen and (max-width: 1366px) {
+    .table-display-data {
+      .table td, .table th {
+        font-size: 11px !important;
+      }
+    }
+    .card-row-section {
+      min-height: 20%;
+      height: auto !important;
+    }
+    .main-table-div {
+      height: 65%;
+    }
+    .dashboard-table-section {
+      height: 91% !important;
+    }
+    .project-cards .card-body-top .card-div .text-center,
+    .card-link-div .card-dashboard-two .card-header .data-count {
+      font-size: 16px !important;
+    }
+    .project-cards .card-body-top .card-div label{
+      font-size: 11px !important;
+    }
+    .project-cards .card-body-top .card-div .text-center {
+      
+      height: 70px !important;
+      width: 70px !important;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .az-dashboard-title {
+      font-size: 18px !important;
+    }
+    .apexcharts-legend.apexcharts-align-center.apx-legend-position-left {
+      left: 60px !important;
+    }
+    .table-header-card {
+      height: 9% !important;
+    }
+    .dashboard-table-section {
+      height: 91% !important;
+    }
+  }
+  @media only screen and (max-width: 998px) {
+    .table-header-card {
+      height: 20% !important;
+    }
+    .dashboard-table-section {
+      height: 80% !important;
+    }
+    .card-row-section {
+      min-height: 20%;
+      height: auto;
+      .project-data {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .costomer-data{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      
+    }
+    .apexcharts-legend.apexcharts-align-center.apx-legend-position-left {
+      left: 180px !important;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .project-cards {
+      display: block;
+      .card-body-top{
+        width: 100% !important;
+        height: auto;
+        margin-bottom: 1%;
+        flex-wrap: nowrap !important;
+      }
+    }
+    
+  }
+  @media only screen and (max-width: 586px) {
+    .apexcharts-legend.apexcharts-align-center.apx-legend-position-left {
+      left: 80px !important;
+    }
+  }
+  @media only screen and (max-width: 468px) {
+    .apexcharts-legend.apexcharts-align-center.apx-legend-position-left {
+      left: 50px !important;
+    }
+  }
+  
+  /* Read Only Column */
+
+  .masters-material-table.durationDetailsTableContent {
+    height: 100% !important;
+  }
+  .masters-material-table.durationDetailsTableContent .MuiTableContainer-root {
+    
+    height: calc(100vh - 200px) !important;
+  }
+  .durationDetailsTableContent .custom-loader {
+    width: 100%;
+  }
+.activeResourcesDate label{display: flex;}
+.reportIncidentInputText.activeResourcesDate .float-select > label{top:-18px !important;}

@@ -1,0 +1,35 @@
+.multi-select {
+  .dropdown-container {
+    width: 100% !important;
+  }
+}
+
+.duplicate-table {
+  height: 70vh;
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .pndgqc-cnt .form-control {
+    margin-left: 17px;
+  }
+  .pndgqc-cnt .col-md-4 {
+    white-space: nowrap;
+  }
+  .pdqc.masters-material-table {
+    height: calc(100vh - 214px) !important;
+  }
+}
+.pndgqc-cnt .row {
+  align-items: baseline;
+}
+.css-1t5kuvk {
+  white-space: nowrap !important;
+}
+.masters-material-table tr th {
+  padding: 0.5rem !important;
+}
+// .masters-material-table tr td {
+//   padding: 0.5rem !important;
+// }
+.pdqc.masters-material-table .MuiTableContainer-root {
+  height: calc(100vh - 250px) !important;
+}

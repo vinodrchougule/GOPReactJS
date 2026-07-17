@@ -1,0 +1,87 @@
+.form-control[type="checkbox"] {
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+}
+
+.d-flex .ml-2 {
+  margin-left: 10px;
+}
+
+.pdqcmro.masters-material-table.nmtable{
+  height: auto !important;
+}
+.row.mrodict{
+  border: 1px solid rgb(205, 212, 224);
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.form-control.isltchk{margin-left: 10px !important;}
+.form-control.myfrm.mrodict{background-color: rgba(255, 255, 255, 0.5);}
+.form-control.myfrm.mrovrsn{background-color: rgba(255, 255, 255, 0.5) !important;}
+.mrodict h6{margin-bottom: 0px;margin-left: 3px;}
+.form-control.isltchk.actv{
+  background-color: rgb(91, 71, 251) !important;
+  opacity: 0.5;
+  margin-left: 10px !important;
+}
+.mrodict .table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 0px !important;
+}
+.mrodict .table td {
+  border: none;
+}
+.mrodict .table td, .mrodict .table th {
+  border-top: 0;
+  vertical-align: middle;
+}
+.pdqcmro.masters-material-table tr td{min-width: 15% !important;}
+.pdqcmro.masters-material-table tr th {
+  min-width: 15% ;
+}
+.mrodict .table .col-md-8.mrcnt{float: left;display: flex;align-items: center;justify-content: space-between;}
+.mrodict .table .col-md-2.mrcnt{min-width: 18%;
+  float: right;
+  display: block;
+  margin-right: auto;}
+.MuiTableRow-root:active{background-color: rgb(242, 242, 242) !important;}
+.Mui-TableHeadCell-Content-Wrapper.MuiBox-root.css-lapokc{white-space: nowrap !important;}
+.Mui-TableHeadCell-Content-Wrapper.MuiBox-root.css-1t5kuvk{white-space: nowrap !important;}
+.Mui-TableHeadCell-Content-Labels.MuiBox-root.css-15qrapg{padding-left: 0px !important;}
+.mrodictbtn{
+  width: fit-content;
+  margin: 0 auto;
+}
+.form-control {
+  height: 38px;
+  border-radius: 0;
+}
+.resizable-textfield .MuiInputBase-root{background-color: #fff !important;border-radius: 0px !important;}
+.mymnmdl.viewsug.mrdictionary.nmmdl .modal-content {
+  max-width: 965px !important;
+}
+.mymnmdl.viewsug.mrdictionary.nmmdl .modal-body{padding: 10px !important;}
+.nmbtn{margin-right: 10px !important;background-color: #5b47fb !important;
+  color: #fff;
+  border: none;}
+  .nmbtn:hover{margin-right: 10px !important;background-color: #5b47fb !important;
+  color: #fff;
+    border: none;}
+.mymnmdl.viewsug.mrdictionary.mymnmdl .modal-header{
+  justify-content: space-between !important;
+  padding: 10px !important;
+}
+.beltimg{width: 100%;
+  height: 100vh;
+  visibility: hidden;}
+.pdqcmro.masters-material-table tr th{background-color: #d5e1f5 !important;}
+.mroDictionaryHelpImg {
+  width: 35px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  float:right;
+}

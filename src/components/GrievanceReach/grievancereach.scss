@@ -1,0 +1,388 @@
+.mydtlscnt {
+  display: flex;
+  align-items: center;
+}
+.mg-r-15 {
+  margin-right: 5px !important;
+}
+.mygrvncecnt {
+  justify-content: center;
+}
+.mygrvncecnt .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mygrvncetxtarea {
+  width: 100%;
+  color: #5b47fb;
+  background-color: #e9e9ff;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid #cdd4e0 !important;
+  padding: 0.375rem 0.75rem !important;
+  resize: none;
+}
+.mygrvncetxtarea:focus-visible {
+  outline: 0 !important;
+}
+
+.submit-button {
+  background-color: #5b47fb;
+  color: #fff;
+  border: none;
+  padding: 7px 10px;
+  display: block;
+  margin: 0 auto;
+}
+.vewsubmit-button {
+  background-color: #5b47fb !important;
+  color: #fff;
+  border: none;
+  padding: 7px 10px;
+}
+.vewsubmit-button:hover {
+  background-color: #5b47fb !important;
+  color: #fff;
+  border: none;
+  padding: 7px 10px;
+}
+.vewsubmit-button:active {
+  background-color: #5b47fb !important;
+  color: #fff;
+  border: none;
+  padding: 7px 10px;
+  outline: 0 !important;
+}
+.grvn-text {
+  color: #309e74;
+  font-size: 22px;
+}
+.my-mncnt {
+  background-color: #fdffef;
+}
+.mytxtareacnt:focus-visible {
+  outline: 0 !important;
+  background-color: #f7fbfb;
+}
+.mytxtareacnt {
+  border: 1px solid #cdd4e0 !important;
+  background-color: #f7fbfb;
+  padding: 0.375rem 0.75rem !important;
+  resize: none;
+}
+.mydtlscnt .form-control {
+  background-color: #f7fbfb;
+}
+@media screen and (min-width: 1200px) {
+  .col-md-1.txt-plce {
+    padding-right: 0px !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .col-lg-7.my-mncnt {
+    max-width: 75% !important;
+  }
+}
+
+.myhdcnt {
+  background-color: #d5e1f5;
+}
+.fas.fa-times-circle {
+  color: rgb(241, 76, 76);
+}
+.fas.fa-file-excel {
+  color: #309e74;
+}
+
+.viewsugest.table th {
+  padding: 9px 15px !important;
+  position: sticky;
+  background-color: #f0f4f4 !important;
+  top: 0px !important;
+}
+.viewsugest.table {
+  margin-bottom: 0px !important;
+}
+.viewsugest.table tr:first-child {
+  background-color: #e1e9f9;
+}
+.submit-button .fa.fa-close {
+  color: #fff;
+}
+.mysgtdta {
+  display: flex;
+  align-items: center;
+}
+.mysgtdta .row {
+  display: flex;
+  align-items: center;
+}
+.mymnmdl.viewsug {
+  width: fit-content !important;
+}
+.mymnmdl.viewsug .modal-content {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mymnmdl.viewsug .modal-header {
+  background-color: #d5e1f5 !important;
+}
+.mymdldata {
+  border: 1px solid #d5e1f5 !important;
+  padding: 15px;
+  background-color: #e1e9f9 !important;
+}
+.mymnmdl.viewsug .modal-footer {
+  background-color: #d5e1f5 !important;
+}
+.mymnmdl.viewsug .modal-body {
+  padding: 10px !important;
+  border: 1px solid #d5e1f5 !important;
+  background-color: #d5e1f5 !important;
+}
+.mymnmdl.viewsug .modal-title {
+  color: #5e76ac !important;
+}
+
+.form-control.myfrm {
+  background-color: #d5e1f5 !important;
+}
+.mytxtareacnt {
+  background-color: #d5e1f5 !important;
+}
+.form-control.date-input {
+  background-color: #d5e1f5 !important;
+}
+
+.mymnmdl.viewsug {
+  left: 0 !important;
+  top: 0 !important;
+}
+
+.viewsugest.table tr td {
+  line-height: 1.5;
+  padding: 9px 15px !important;
+}
+.mymnmdl.viewsug .modal-footer {
+  justify-content: center;
+}
+.date-input::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+.viewclrbtns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.clrfltr {
+  margin-right: 10px;
+}
+.css-6qfsqn-MuiTableCell-root {
+  text-align: center !important;
+}
+.css-dv0mq-MuiTableCell-root {
+  text-align: left !important;
+}
+.css-1howxi1-MuiTableCell-root {
+  width: 15%;
+}
+.css-dsuxgy-MuiTableCell-root {
+  color: #5b47fb !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.nav-pills .nav-link {
+  border: 1px solid rgb(94, 65, 252) !important;
+}
+.css-15wwp11-MuiTableHead-root {
+  background-color: #d5e1f5 !important;
+}
+.css-1q1u3t4-MuiTableRow-root {
+  background-color: #d5e1f5 !important;
+}
+.css-34nofg-MuiTableRow-root {
+  background-color: rgba(244, 246, 248, 1) !important;
+}
+.dtls.custom-textfield {
+  height: 100%;
+}
+.dtls.custom-textfield:focus {
+  background-color: #f7fbfb !important;
+}
+.mydtlssuggest.mydtlscnt {
+  height: 100%;
+}
+.textarea-container {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.resizable-textfield .MuiInputBase-root {
+  resize: block !important;
+  min-height: 100px;
+  background-color: #f7fbfb !important;
+  width: 100%;
+}
+
+.MuiFormLabel-root {
+  top: -6px;
+  left: 14px;
+  font-size: 0.75rem;
+  color: #3f51b5;
+}
+.css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+  font-size: 14px !important;
+}
+.css-12tl3rr-MuiInputBase-input-MuiOutlinedInput-input {
+  font-size: 14px !important;
+}
+
+.mydtlssuggest.mydtlscnt
+  .css-12tl3rr-MuiInputBase-input-MuiOutlinedInput-input {
+  resize: block !important;
+}
+.sugst.submit-button {
+  padding: 7px 15px;
+}
+.css-y1oeig-MuiTableCell-root {
+  display: none !important;
+}
+.css-r58cto-MuiTableRow-root {
+  background-color: #d5e1f5 !important;
+}
+.css-ymydt3-MuiTableContainer-root
+  tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"])
+  > td {
+  background-color: rgba(244, 246, 248, 1) !important;
+}
+.css-17zmvcv-MuiTableCell-root {
+  padding: 0.5rem !important;
+}
+.css-mpsvd7-MuiTableCell-root {
+  padding: 0.5rem !important;
+}
+.css-1qptpta-MuiTableCell-root {
+  padding: 0.5rem !important;
+}
+
+.masters-material-table {
+  height: calc(100vh - 240px);
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.23) !important;
+}
+.css-1qxw4jt-MuiInputBase-root-MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.23) !important;
+}
+.masters-material-table .customer-table-paper {
+  height: 100%;
+}
+
+.masters-material-table .customer-table-body {
+  height: 88% !important;
+  max-height: 88% !important;
+}
+.css-1mum6b3-MuiTableContainer-root {
+  max-height: calc(100vh - 285px) !important;
+}
+.css-10gei56 {
+  display: none !important;
+}
+
+.MuiBox-root.css-13osidw {
+  padding: 0px !important;
+}
+.css-n7utc9-MuiTableCell-root {
+  border-right: 1px solid rgba(224, 224, 224, 1);
+  border-left: 1px solid rgba(224, 224, 224, 1);
+}
+.css-1ls7k4s-MuiTableCell-root {
+  border-right: 1px solid rgba(224, 224, 224, 1);
+  border-left: 1px solid rgba(224, 224, 224, 1);
+}
+.css-1ekcks5-MuiTableCell-root {
+  border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.css-eq73eb-MuiTableCell-root {
+  border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.css-rfwhd3-MuiTableContainer-root {
+  height: calc(100vh - 250px) !important;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+  .az-header-menu .nav-item + .nav-item {
+    margin-top: 0;
+    margin-left: 10px !important;
+  }
+  .az-profile-menu {
+    position: relative;
+    margin-left: 5px;
+  }
+  .mysgtdta .col-md-1.txt-plce {
+    padding-left: 10px;
+    padding-right: 7px;
+  }
+  .container-fluid {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+.mydtlssuggest.mydtlscnt .MuiFormControl-root.MuiTextField-root {
+  width: 100%;
+  resize: block !important;
+}
+@media screen and (min-width: 1000px) {
+  .mymnmdl.viewsug .modal-content {
+    max-width: 950px !important;
+  }
+  .mymnmdl.viewsug .modal-dialog {
+    max-width: 950px !important;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 999px) {
+  .mymnmdl.viewsug .modal-content {
+    max-width: 650px !important;
+  }
+  .mymnmdl.viewsug .modal-dialog {
+    max-width: 650px !important;
+  }
+  .mysgtdta .col-md-1.txt-plce {
+    padding-left: 2px;
+    padding-right: 3px;
+  }
+}
+.fa-hand-o-left:before {
+  content: "\f0a5";
+}
+.masters-material-table.viewSuggestionsListTable .MuiTableContainer-root {
+  height: calc(100vh - 250px) !important;
+}
+.masters-material-table.viewSuggestionsListTable {
+  height: 100% !important;
+}
+.viewSuggestionsListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(244, 246, 248, 1) !important; 
+}
+.viewSuggestionsListTable tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+.viewSuggestionsListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(255, 255, 255, 255) !important; 
+}
+.viewSuggestionsListTable tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]):hover {
+  background-color: rgba(204, 204, 204, 255) !important; 
+}
+.suggestionManagementFloatingInput .float-select > label {display: block !important; position: absolute; top: -12px !important; left: 5px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+  margin-bottom: 0px !important;
+}
+.suggestionSubjectDetailsInput fieldset{border-radius: 0px !important;}

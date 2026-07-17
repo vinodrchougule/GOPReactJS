@@ -1,0 +1,764 @@
+.cp-main-div {
+  height: 100%;
+  padding: 20px;
+
+  .cp-form {
+    height: 100%;
+
+    .row {
+      align-items: center;
+    }
+
+    .cp-breadcome-header {
+      min-height: 12%;
+      padding: 10px;
+    }
+
+    .cp-container {
+      height: 88%;
+      border: 1px solid #ccc;
+      overflow: auto;
+      padding: 10px;
+    }
+
+    .cpb-container {
+      height: auto;
+      border: 1px solid #ccc;
+      overflow: auto;
+      padding: 10px;
+    }
+  }
+}
+
+.project-activity-heading {
+  padding: 4px 10px;
+}
+
+.cp-add-project-activity-modal {
+  .modal-dialog {
+    left: 35% !important;
+  }
+}
+
+.form-field-div {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+
+  p {
+    margin: 0;
+  }
+
+  label {
+    display: flex;
+    margin-bottom: 0;
+    min-width: 160px;
+    align-items: center;
+  }
+
+  .form-control {
+    display: flex;
+    align-items: center;
+  }
+}
+.read-project-data {
+  background-color: #ccc;
+}
+.form-field-div-read {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+
+  p {
+    margin: 0;
+  }
+
+  label {
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+    padding-right: 8px;
+  }
+
+  .form-control {
+    display: flex;
+    align-items: center;
+  }
+}
+.edited-file {
+  position: absolute;
+  left: 27%;
+  top: 40px;
+}
+
+.view-icon {
+  width: 14%;
+}
+
+@media screen and (max-width: 1366px) {
+  .cp-form {
+    .btn {
+      padding: 4px 10px !important;
+      min-height: 35px !important;
+
+      i {
+        font-size: 14px;
+        vertical-align: middle;
+      }
+    }
+  }
+  .form-field-div {
+    label {
+      min-width: 130px !important;
+      font-size: 0.75rem !important;
+    }
+  }
+  .edited-file {
+    left: 35%;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+  .projects-table-height {
+    height: 350px;
+  }
+
+  .project-batch-table-height {
+    height: 350px;
+  }
+
+  .delivered-project-batch-table-header-height {
+    width: 119.3%;
+  }
+
+  .delivered-project-batch-table-height {
+    height: 320px;
+    width: 120%;
+  }
+
+  .task-table-width {
+    width: 50%;
+  }
+
+  .delivered-project-table-height {
+    height: 330px;
+    width: 135%;
+  }
+
+  .delivered-projects-table-header-width {
+    width: 134.2%;
+  }
+
+  .not-started-project-list-table-height {
+    height: 320px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1439px) {
+  .projects-table-height {
+    height: 520px;
+  }
+
+  .project-batch-table-height {
+    height: 520px;
+  }
+
+  .delivered-project-batch-table-header-height {
+    width: 119.3%;
+  }
+
+  .delivered-project-batch-table-height {
+    height: 520px;
+    width: 120%;
+  }
+
+  .task-table-width {
+    width: 50%;
+  }
+
+  .delivered-project-table-height {
+    height: 540px;
+    width: 135%;
+  }
+
+  .delivered-projects-table-header-width {
+    width: 134.2%;
+  }
+
+  .not-started-project-list-table-height {
+    height: 520px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+  .projects-table-height {
+    height: 520px;
+  }
+
+  .project-batch-table-height {
+    height: 680px;
+  }
+
+  .task-table-width {
+    width: 52%;
+  }
+
+  .delivered-project-table-height {
+    height: 680px;
+    width: 130%;
+  }
+
+  .delivered-projects-table-header-width {
+    width: 129.4%;
+  }
+
+  .not-started-project-list-table-height {
+    height: 650px;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1679px) {
+  .projects-table-height {
+    height: 560px;
+  }
+
+  .project-batch-table-height {
+    height: 560px;
+  }
+
+  .delivered-project-batch-table-header-height {
+    width: 109.3%;
+  }
+
+  .delivered-project-batch-table-height {
+    height: 560px;
+    width: 110%;
+  }
+
+  .task-table-width {
+    width: 58%;
+  }
+
+  .delivered-project-table-height {
+    height: 540px;
+    width: 115%;
+  }
+
+  .delivered-projects-table-header-width {
+    width: 114.4%;
+  }
+
+  .not-started-project-list-table-height {
+    height: 560px;
+  }
+}
+
+@media screen and (min-width: 1680px) and (max-width: 1919px) {
+  .projects-table-height {
+    height: 680px;
+  }
+
+  .project-batch-table-height {
+    height: 680px;
+  }
+
+  .delivered-project-batch-table-header-height {
+    width: 99.3%;
+  }
+
+  .delivered-project-batch-table-height {
+    height: 680px;
+    width: 100%;
+  }
+
+  .task-table-width {
+    width: 60%;
+  }
+
+  .delivered-project-table-height {
+    height: 680px;
+    width: 110%;
+  }
+
+  .delivered-projects-table-header-width {
+    width: 109.4%;
+  }
+
+  .not-started-project-list-table-height {
+    height: 680px;
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2111px) {
+  .projects-table-height {
+    height: 620px;
+  }
+
+  .project-batch-table-height {
+    height: 620px;
+  }
+
+  .delivered-project-batch-table-header-height {
+    width: 99.3%;
+  }
+
+  .delivered-project-batch-table-height {
+    height: 620px;
+    width: 100%;
+  }
+
+  .task-table-width {
+    width: 65%;
+  }
+
+  .delivered-project-table-height {
+    height: 620px;
+    width: 100%;
+  }
+
+  .delivered-projects-table-header-width {
+    width: 99.4%;
+  }
+
+  .not-started-project-list-table-height {
+    height: 620px;
+  }
+}
+
+/* 18.10.24 css */
+.updateProjectDetailsModalContent .modal-dialog {
+  max-width: 70% !important;
+  left: 15% !important;
+}
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  .updateProjectDetailsModalContent .modal-dialog {
+    max-width: 70% !important;
+    left: 14% !important;
+  }
+}
+.updateProjectDetailsModalContent .modal-content {
+  height: 500px !important;
+  border: 1px solid #3366ff !important;
+}
+.updateProjectDetailsModalLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.updateProjectDetailsModalLabel label {
+  margin-top: 0.5rem !important;
+}
+.addUpdateProjectDetailsButton {
+  float: right;
+}
+.updateProjectDetailsContent.table {
+  margin-bottom: 0px !important;
+}
+.updateProjectDetailsContent.table tr th {
+  border-top-width: 1px !important;
+}
+.updateProjectDetailsModalContent .modal-footer {
+  justify-content: center !important;
+}
+.updateProjectDetailsModalContent .modal-header .modal-title.h4 {
+  color: #031b4e !important;
+  font-weight: 400;
+}
+.updateProjectDetailsModalText .float-select > label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 12px !important;
+}
+.addUpdateProjectDetailsModalContent .modal-dialog {
+  max-width: 66% !important;
+  left: 17% !important;
+}
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  .addUpdateProjectDetailsModalContent .modal-dialog {
+    max-width: 66% !important;
+    left: 16% !important;
+  }
+}
+.addUpdateProjectDetailsModalContent .modal-header .modal-title.h4 {
+  color: #031b4e !important;
+  font-weight: 400;
+}
+.addUpdateProjectDetailsModalContent .modal-body {
+  padding-top: 5px !important;
+}
+.addUpdateProjectDetailsModalContent .modal-content {
+  border: 1px solid #3366ff !important;
+}
+.addUpdateProjectDetailsModalContent .modal-footer {
+  justify-content: center !important;
+}
+.updateProjectDetailsModalText textarea {
+  height: 130px !important;
+}
+.updateProjectDetailsTable {
+  height: 280px !important;
+}
+.updateProjectDetailsModalContent .btn-close::after {
+  color: #3366ff !important;
+}
+.addUpdateProjectDetailsModalContent .btn-close::after {
+  color: #3366ff !important;
+}
+.addUpdateProjectDetailsModalProjectCodeLabel {
+  display: flex;
+  align-items: center;
+}
+.updateProjectDetailsIcons {
+  text-align: center;
+}
+.updateProjectDetailsModalContent .modal-body {
+  padding: 10px 25px 10px 25px !important;
+}
+.updateProjectDetailsDeleteConfirmationModal .modal-dialog {
+  max-width: 25% !important;
+  left: 35% !important;
+  top: 40% !important;
+}
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  .updateProjectDetailsDeleteConfirmationModal .modal-dialog {
+    max-width: 32% !important;
+  }
+  .updateProjectDetailsModalContent .modal-dialog {
+    max-width: 90% !important;
+    left: 5% !important;
+  }
+}
+.updateProjectDetailsDeleteConfirmationModal .modal-content {
+  border: 1px solid #3366ff !important;
+}
+.fade.updateProjectDetailsDeleteConfirmationModal.modal.show {
+  overflow-y: hidden !important;
+}
+.addUpdateProjectDetailsModalProjectCodeLabel p {
+  margin-bottom: 0px !important;
+  color: #000 !important;
+}
+.addUpdateProjectDetailsModalProjectCodeLabel label {
+  margin-bottom: 0px !important;
+}
+.updateProjectDetailsCustomerCode {
+  margin-left: 5px;
+}
+.updateProjectDetailsProjectCode {
+  margin-left: 5px;
+}
+.updateProjectDetailsLabelContent {
+  display: flex;
+  align-items: center;
+}
+.updateProjectDetailsLabelContent p {
+  margin-bottom: 0px !important;
+  margin-left: 5px !important;
+}
+.updateProject.custom-file-upload {
+  display: flex;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #ffff;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+}
+.updateProject.custom-file-upload .fas.fa-paperclip {
+  margin-right: 5px;
+}
+.updateProjectDetailsTable .masters-material-table {
+  height: auto !important;
+}
+.updateProjectDetailsTable
+  .masters-material-table
+  .MuiPaper-root.MuiPaper-elevation {
+  max-height: 485px !important;
+  overflow: auto;
+}
+.updateProjectDetailsTable .masters-material-table .MuiTableContainer-root {
+  height: 100% !important;
+  max-height: 230px !important;
+  min-height: 230px !important;
+}
+.updateProjectDetailsDeleteConfirmationModal .modal-header .modal-title.h4 {
+  color: #031b4e !important;
+  font-weight: 400;
+}
+.updateProjectDetailsDeleteConfirmationModal .modal-header {
+  padding-left: 15px !important;
+}
+.updateProjectDetailsDeleteConfirmationModal .modal-body {
+  padding-left: 15px !important;
+}
+.viewProjectMainContent .card-body {
+  height: 800px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.viewProjectMainContent .card-body label {
+  padding-left: 15px;
+}
+.viewProjectListTable {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+  .viewProjectMainContent .card-body {
+    height: 630px;
+    overflow: auto;
+  }
+}
+
+.viewProjectBatchMainContent .card-body {
+  height: 800px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.viewProjectBatchMainContent .card-body label {
+  padding-left: 15px;
+}
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+  .viewProjectBatchMainContent .card-body {
+    height: 630px;
+    overflow: auto;
+  }
+
+  .createProjectFloatingChooseFileInput.gdlInputFile.editProjectBatchInput
+    .float-select.mainLblFle
+    > .lblFile {
+    font-size: 12px !important;
+    width: 65% !important;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1299px) {
+  .createProjectFloatingChooseFileInput
+    .float-select.mainLblFle
+    > .lblFile.customLblFile {
+    display: block !important;
+    left: 74px !important;
+    top: 5px !important;
+    transform: translate(10px, 10px);
+  }
+  .createProjectFloatingChooseFileInput .float-select.mainLblFle > .lblFile {
+    display: block !important;
+    left: 74px !important;
+    top: 5px !important;
+    transform: translate(10px, 10px);
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
+  .createProjectFloatingChooseFileInput
+    .float-select.mainLblFle
+    > .lblFile.customLblFile {
+    display: block !important;
+    left: 100px !important;
+    top: 0px !important;
+    transform: translate(10px, 10px);
+  }
+  .createProjectFloatingChooseFileInput .float-select.mainLblFle > .lblFile {
+    display: block !important;
+    left: 100px !important;
+    top: 0px !important;
+    transform: translate(10px, 10px);
+  }
+}
+/*Create Project css starts here*/
+.createProjectFloatingInput .float-select > label {
+  display: block !important;
+  position: absolute;
+  top: -10px !important;
+  left: 5px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+}
+@media screen and (min-width: 1601px) {
+  .createProjectFloatingChooseFileInput .float-select.mainLblFle > .lblFile {
+    display: block !important;
+    background: #fff !important;
+    font-size: 14px !important;
+    position: absolute;
+    right: 5px;
+    top: 10px !important;
+    left: 105px;
+    z-index: 111;
+    width: 50%;
+  }
+}
+.createProjectFloatingInput .error-message {
+  padding-bottom: 0px !important;
+}
+.createProjectFloatingChooseFileInput .error-message {
+  padding-bottom: 0px !important;
+}
+.resourceBased-slide-checkbox {
+  display: flex;
+  align-items: center;
+}
+.cp-add-project-activity-modal .error-message {
+  padding-bottom: 10px !important;
+}
+/*Create Project css ends here*/
+
+.masters-material-table.projectSubActivityTypeTable.onGoingProjectListTable
+  .MuiTableContainer-root {
+  height: calc(100vh - 360px) !important;
+}
+.fa,
+.fas {
+  font-weight: 900;
+}
+.view-icon {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.onGoingProjectListTable
+  .MuiTableRow-root.Mui-TableBodyCell-DetailPanel
+  .MuiCollapse-root
+  .onGoingProjectListRenderDetailPanel {
+  display: block !important;
+}
+.masters-material-table.onGoingProjectListTable
+  .MuiTableContainer-root
+  .masters-material-table.onGoingProjectListInnerListTable
+  .onGoingProjectListInnerExpandTable
+  .MuiTableContainer-root {
+  height: calc(50vh - 350px) !important;
+  width: 75% !important;
+}
+.masters-material-table.deliveredProjectListTable
+  .MuiTableContainer-root
+  .masters-material-table.onGoingProjectListInnerListTable
+  .onGoingProjectListInnerExpandTable
+  .MuiTableContainer-root {
+  height: calc(50vh - 350px) !important;
+  width: 75% !important;
+}
+.masters-material-table.onGoingProjectListTable .MuiTableContainer-root {
+  height: calc(100vh - 380px) !important;
+}
+.masters-material-table.deliveredProjectListTable .MuiTableContainer-root {
+  height: calc(100vh - 380px) !important;
+}
+.masters-material-table.notStartedProjectListTable .MuiTableContainer-root {
+  height: calc(100vh - 380px) !important;
+}
+
+.projectSubActivityTypeTable .MuiTableRow-root:hover td {
+  background-color: rgba(204, 204, 204, 255) !important;
+}
+.masters-material-table.onGoingProjectListInnerListTable {
+  height: 100% !important;
+}
+.cp-form.editProjectBatchMainContent .btn {
+  padding: 8px 10px !important;
+}
+.postProjectBatchDetailsMain {
+  height: auto;
+  border: 1px solid #ccc;
+  overflow: auto;
+  padding: 10px;
+}
+.masters-material-table.deliveredProjectListTable {
+  height: 100% !important;
+}
+.masters-material-table.onGoingProjectListTable {
+  height: 100% !important;
+}
+.masters-material-table.notStartedProjectListTable {
+  height: 100% !important;
+}
+.cp-form.editProject-data .btn {
+  padding: 8px 10px !important;
+}
+.cp-form.createProject-data .btn {
+  padding: 8px 10px !important;
+}
+
+.MuiTableHead-root
+  .MuiTableRow-root
+  .MuiTableCell-root.MuiTableCell-head
+  .Mui-TableHeadCell-Content-Wrapper
+  .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium {
+  opacity: 0.3;
+}
+.MuiTableBody-root .MuiTableRow-root .MuiTableCell-root .MuiButtonBase-root {
+  opacity: 0.2;
+}
+.onGoingProjectListInnerListTable .MuiBox-root.css-1tbggly .MuiButtonBase-root {
+  opacity: 1 !important;
+}
+.onGoingProjectListInnerListTable
+  .MuiPaper-root.MuiPaper-elevation
+  .MuiBox-root
+  .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium
+  .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+  opacity: 1 !important;
+}
+.createProjectFloatingInput textarea {
+  height: 80px !important;
+  line-height: 20px !important;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.createProjectFloatingChooseFileInput.gdlInputFile.custInptFile
+  .float-select
+  > label {
+  background: #e3e7ed !important;
+}
+.createProjectFloatingChooseFileInput.gdlInputFile .float-select > label {
+  position: absolute;
+  top: -15px !important;
+  display: block !important;
+  background: #fff !important;
+  left: 5px;
+  font-size: 14px !important;
+}
+.createProjectFloatingInput.gdlInputFile.custInptFile .float-select > label {
+  background: #e3e7ed !important;
+}
+.createProjectFloatingInput.gdlInputFile .float-select > label {
+  position: absolute;
+  top: -15px !important;
+  display: block !important;
+  background: #fff !important;
+  left: 5px !important;
+}
+.createProjectFloatingInput label,
+option {
+  font-size: 14px !important;
+}
+.projectsMainContent .form-control {
+  font-size: 14px !important;
+}
+
+.createProjectMainContent .form-control {
+  font-size: 14px !important;
+}
+.editProjectMainContent .form-control {
+  font-size: 14px !important;
+}
+.viewProjectMainContent label {
+  font-size: 14px !important;
+}
+.cp-add-project-activity-modal .form-control {
+  font-size: 14px !important;
+}
+
+.editProjectMainContent label {
+  font-size: 14px !important;
+}

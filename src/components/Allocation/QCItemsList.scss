@@ -1,0 +1,56 @@
+/*User List css starts here*/
+.masters-material-table.usersListTable {
+  height: calc(100vh - 240px) !important;
+}
+.masters-material-table.usersListTable .MuiTableContainer-root {
+  height: calc(100vh - 270px) !important;
+}
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+  .masters-material-table.usersListTable .MuiTableContainer-root {
+    height: calc(100vh - 185px) !important;
+  }
+}
+.usersListTable
+  tr:nth-of-type(odd):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(244, 246, 248, 1) !important;
+}
+.usersListTable
+  tr:nth-of-type(odd):not([data-selected="true"]):not(
+    [data-pinned="true"]
+  ):hover {
+  background-color: rgba(204, 204, 204, 255) !important;
+}
+.usersListTable
+  tr:nth-of-type(even):not([data-selected="true"]):not([data-pinned="true"]) {
+  background-color: rgba(255, 255, 255, 255) !important;
+}
+.usersListTable
+  tr:nth-of-type(even):not([data-selected="true"]):not(
+    [data-pinned="true"]
+  ):hover {
+  background-color: rgba(204, 204, 204, 255) !important;
+}
+/*User List css end*/
+
+.circle-arrow {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.circle-arrow:hover {
+  background-color: #0056b3;
+}
+
+.reportIncidentSelectText {
+  display: flex;
+  align-items: center;
+}

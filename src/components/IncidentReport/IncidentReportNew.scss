@@ -1,0 +1,93 @@
+.incidentTypeContent {
+  display: flex;
+  align-items: center;
+}
+
+.incidentTypeContent label {
+  margin-bottom: 0px !important;
+}
+
+.incidentTypeContent span {
+  margin-left: 10px;
+}
+
+.mg-r-15 {
+  margin-right: 5px !important;
+}
+
+.nav-pills .nav-link {
+  border: 1px solid rgb(94, 65, 252) !important;
+}
+
+.textarea-container {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.incidentTypeMainText {
+  height: 100% !important;
+}
+
+.masters-material-table.incidentTypeTableContent {
+  height: 100% !important;
+}
+
+.masters-material-table.incidentTypeTableContent
+  .MuiPaper-root.MuiPaper-elevation {
+  max-height: 100% !important;
+  overflow: auto;
+}
+
+.masters-material-table.incidentTypeTableContent .MuiTableContainer-root {
+  max-height: 635px !important;
+  min-height: 635px !important;
+  height: 100% !important;
+}
+
+.masters-material-table.incidentTypeTableContent tr td {
+  padding: 0.3rem !important;
+}
+
+.masters-material-table.incidentTypeTableContent {
+  height: 100% !important;
+}
+
+.masters-material-table.incidentTypeTableContent .MuiBox-root.css-10gei56 {
+  min-height: 55px !important;
+}
+
+.masters-material-table.incidentTypeTableContent .css-10gei56 {
+  display: block !important;
+}
+
+.addIncidentTypeMainContent .row-sm > div {
+  padding-left: 0px !important;
+}
+
+@media screen and (max-width: 1500px) {
+  .az-header-menu .nav-item + .nav-item {
+    margin-left: 15px !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+  .az-header-menu .nav-item + .nav-item {
+    margin-left: 10px !important;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  .az-header-menu .nav-item > .nav-link {
+    font-size: 12px !important;
+  }
+
+  .az-header-menu .nav-item + .nav-item {
+    margin-left: 5px !important;
+  }
+}
+// .incidentTypeTabMainContent{display: none;}
+
+.ir-lat-img {
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,63 @@
+.incidentReportDashboardModal .modal-dialog {
+  max-width: 1200px !important;
+  left: 5% !important;
+}
+
+@media screen and (min-width:1800px) {
+  .incidentReportDashboardModal .modal-dialog {
+    left: 17% !important;
+  }
+}
+
+.incidentReportDashboardModal .modal-content {
+  left: 0% !important;
+}
+
+.incidentReportDashboardModal .modal-footer {
+  justify-content: center;
+}
+
+.incidentReportDashboardModalBody .masters-material-table.incidentReportTableContent .MuiTableContainer-root {
+  max-height: 255px !important;
+  min-height: 255px !important;
+  height: 100% !important;
+}
+
+.masters-material-table.incidentReportDashboardTypeTableContent {
+  height: 100% !important;
+}
+
+.masters-material-table.incidentReportDashboardTypeTableContent .MuiTableContainer-root {
+  max-height: 440px !important;
+  min-height: 440px !important;
+  height: 100% !important;
+}
+
+.masters-material-table.incidentReportDashboardTypeTableContent .MuiBox-root.css-10gei56 {
+  min-height: 55px !important;
+  display: block !important;
+}
+
+.masters-material-table.incidentReportDashboardTypeTableContent .MuiBox-root.css-10gei56 {
+  display: none !important;
+}
+@media screen and (min-width:1000px) and (max-width:1300px) {
+  .incidentReportDashboardModal .modal-dialog{
+    max-width: 1200px !important;
+    left: 2% !important;
+  }
+}
+@media screen and (min-width:1400px) and (max-width:1500px) {
+  .incidentReportDashboardModal .modal-dialog {
+    max-width: 1200px !important;
+    left: 7% !important;
+  }
+}
+@media screen and (min-width:1501px) and (max-width:1600px) {
+  .incidentReportDashboardModal .modal-dialog{
+    max-width: 1200px !important;
+    left: 9% !important;
+  }
+}
+
+.incidentReportDashboardMainContent .form-control{font-size: 14px !important;}

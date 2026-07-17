@@ -1,0 +1,282 @@
+.scopeOverflowReport {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 250px;
+}
+
+// .react-bootstrap-table {
+//   overflow-x: auto !important;
+// }
+
+.report-modal-width {
+  max-width: 95% !important;
+}
+
+.table-report-98 {
+  margin-right: 2%;
+}
+
+.main-data {
+  padding: 0 1%;
+}
+.table-display-data {
+  overflow-y: scroll;
+  border-bottom: 1px solid #cdd4e0;
+}
+
+.project-card-body {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+
+//1024px resolution
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .table-display-data {
+    height: 311px;
+  }
+}
+
+//1376 resolution
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+  .table-display-data {
+    height: 409px !important;
+  }
+
+  .react-bootstrap-table-height {
+    height: 270px;
+  }
+
+  .previous-day-report-table-height {
+    height: 310px;
+  }
+
+  .periodic-project-report-table-height {
+    height: 260px;
+  }
+
+  .employee-specific-summary-report-table-height {
+    height: 240px;
+  }
+
+  .employee-specific-details-report-table-height {
+    height: 230px;
+  }
+
+  .previousDay-Projects-Summary {
+    height: 440px;
+  }
+
+  .employees-task-report-table-height {
+    height: 200px;
+  }
+
+  .employees-task-summary-report-table-height {
+    height: 240px;
+  }
+
+  .employees-task-unallocated-resources-report-table-height {
+    height: 270px;
+  }
+}
+
+//1400 resolution
+@media screen and (min-width: 1399px) and (max-width: 1439px) {
+  .table-display-data {
+    height: 607px !important;
+  }
+
+  .react-bootstrap-table-height {
+    height: 660px;
+  }
+
+  .previous-day-report-table-height {
+    height: 690px;
+  }
+
+  .periodic-project-report-table-height {
+    height: 640px;
+  }
+
+  .employee-specific-summary-report-table-height {
+    height: 590px;
+  }
+
+  .employee-specific-details-report-table-height {
+    height: 590px;
+  }
+
+  .previousDay-Projects-Summary {
+    height: 650px;
+  }
+
+  .employees-task-report-table-height {
+    height: 630px;
+  }
+
+  .employees-task-unallocated-resources-report-table-height {
+    height: 630px;
+  }
+}
+
+//1440 resolution
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+  .table-display-data {
+    height: 442px !important;
+  }
+
+  .react-bootstrap-table-height {
+    height: 510px;
+  }
+
+  .previous-day-report-table-height {
+    height: 540px;
+  }
+
+  .periodic-project-report-table-height {
+    height: 490px;
+  }
+
+  .employee-specific-summary-report-table-height {
+    height: 440px;
+  }
+
+  .employee-specific-details-report-table-height {
+    height: 440px;
+  }
+
+  .previousDay-Projects-Summary {
+    height: 800px;
+  }
+
+  .employees-task-report-table-height {
+    height: 490px;
+  }
+
+  .employees-task-unallocated-resources-report-table-height {
+    height: 490px;
+  }
+}
+
+//1600 resolution
+@media screen and (min-width: 1600px) and (max-width: 1679px) {
+  .table-display-data {
+    height: 607px !important;
+  }
+
+  .react-bootstrap-table-height {
+    height: 510px;
+  }
+
+  .previous-day-report-table-height {
+    height: 540px;
+  }
+
+  .periodic-project-report-table-height {
+    height: 490px;
+  }
+
+  .employee-specific-summary-report-table-height {
+    height: 440px;
+  }
+
+  .employee-specific-details-report-table-height {
+    height: 440px;
+  }
+
+  .previousDay-Projects-Summary {
+    height: 650px;
+  }
+
+  .employees-task-report-table-height {
+    height: 490px;
+  }
+
+  .employees-task-unallocated-resources-report-table-height {
+    height: 490px;
+  }
+}
+
+//1680 resolution
+@media screen and (min-width: 1680px) and (max-width: 1919px) {
+  .table-display-data {
+    height: 607px !important;
+  }
+
+  .react-bootstrap-table-height {
+    height: 650px;
+  }
+
+  .previous-day-report-table-height {
+    height: 680px;
+  }
+
+  .periodic-project-report-table-height {
+    height: 630px;
+  }
+
+  .employee-specific-summary-report-table-height {
+    height: 580px;
+  }
+
+  .employee-specific-details-report-table-height {
+    height: 580px;
+  }
+
+  .previousDay-Projects-Summary {
+    height: 800px;
+  }
+
+  .employees-task-report-table-height {
+    height: 630px;
+  }
+
+  .employees-task-unallocated-resources-report-table-height {
+    height: 630px;
+  }
+}
+
+//1920 resolution
+@media screen and (min-width: 1920px) and (max-width: 2111px) {
+  .table-display-data {
+    height: 607px !important;
+  }
+
+  .react-bootstrap-table-height {
+    height: 580px;
+  }
+
+  .previous-day-report-table-height {
+    height: 620px;
+  }
+
+  .periodic-project-report-table-height {
+    height: 560px;
+  }
+
+  .employee-specific-summary-report-table-height {
+    height: 520px;
+  }
+
+  .employee-specific-details-report-table-height {
+    height: 550px;
+  }
+
+  .previousDay-Projects-Summary {
+    height: 780px;
+  }
+
+  .employees-task-report-table-height {
+    height: 570px;
+  }
+
+  .employees-task-summary-report-table-height {
+    height: 570px;
+  }
+
+  .employees-task-unallocated-resources-report-table-height {
+    height: 570px;
+  }
+}
